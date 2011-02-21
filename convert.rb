@@ -192,22 +192,6 @@ end
 
 #ap temp
 
-=begin
-2010-03-06-jquery-throttle-debounce-plugin:
-  url: http://benalman.com/projects/jquery-throttle-debounce-plugin/ (ignored)
-  path_orig: projects/jquery-throttle-debounce-plugin
-  path_new: jquery-throttle-debounce-plugin
-  title: jQuery throttle / debounce
-  subtitle: Sometimes, less is more!
-  publish: true
-  categories:
-  - Projects
-  - jQuery
-  incl_names:
-  - throttle.js
-  - debounce.js
-=end
-
 FileUtils.rm_rf($files_out)
 
 total = actual = 0
@@ -268,6 +252,7 @@ FileUtils.cd($files_out)
 `git add .`
 `git commit -m "Initial import of content from old site."`
 
+=begin
 def generate_meta
   # generate metadata map
   $map = {}
@@ -304,95 +289,4 @@ def generate_meta
 end
 
 #File.open('meta_map2.yaml', 'w') {|f| f.write(generate_meta)}
-
-#=end
-
-
-
-=begin
-
-class String
-  # Unindent arbitrarily-indented heredocs
-  def unindent
-    arr = respond_to?(:lines) ? lines : self
-    min = arr.map {|line| line[/^\s*/].length}.min
-    arr.map {|line| line.sub(/^\s{#{min}}/, '')}.join
-  end
-end
-
-strip_dates = lambda {|file| file.sub(/^\d{4}-\d{2}-\d{2}-/, '')}
-
-def mv(txt, subdir = '.', &block)
-  puts "mkdir #{subdir}"
-  # FileUtils.mkdir_p(subdir) if subdir != '.'
-  txt.lines.each do |dir|
-    dir.chomp!
-    new_dir = if block_given?
-      yield dir
-    else
-      dir
-    end
-    puts "mv #{dir} -> #{subdir}/#{new_dir}"
-    #FileUtils.mv(File.join(dir, 'index.md'), File.join(subdir, new_dir, 'index.md'))
-  end
-end
-
-# hidden
-# ack -a 'tags:.*@' -l | perl -pe 's#^([\d-]+)(.*)$#mv $1$2 hidden/$2#'
-mv <<-EOF.unindent, 'hidden', &strip_dates
-  2010-02-23-jquery-custom-events
-  2010-01-15-creating-a-jquery-special-event
-EOF
-
-# projects
-# ack -a 'categories:.*Projects' -l | perl -pe 's#^([\d-]+)(.*)$#mv $1$2 projects/$2#'
-mv <<-EOF.unindent, &strip_dates
-  2010-02-22-finder-copy-open-window-paths
-  2010-02-27-jquery-outside-events-plugin
-  2009-07-19-jquery-unwrap-plugin
-  2009-10-06-jquery-urlinternal-plugin
-  2010-01-01-php-simple-proxy
-  2009-07-01-jquery-cond-plugin
-  2010-03-06-jquery-throttle-debounce-plugin
-  2010-07-31-multi-firefox-launcher
-  2009-06-26-run-jquery-code-bookmarklet
-  2009-07-10-jquery-url-utils-plugin
-  2009-10-03-jquery-bbq-plugin
-  2009-07-15-jquery-dotimeout-plugin
-  2009-11-08-jquery-equalizebottoms-plugin
-  2009-11-21-jquery-replacetext-plugin
-  2009-11-14-bookmarklets
-  2010-02-12-jquery-misc-plugins
-  2009-11-17-javascript-emotify
-  2009-10-09-jquery-starwipe-plugin
-  2010-01-23-jquery-longurl-plugin
-  2009-12-01-jquery-untils-plugin
-  2010-07-22-jquery-hashchange-plugin
-  2009-11-17-javascript-linkify
-  2010-06-22-javascript-debug-console-log
-  2009-08-24-simplified-style
-  2009-06-01-jquery-iff-plugin
-  2010-01-05-jquery-message-queuing-plugin
-  2010-02-06-jquery-resize-plugin
-  2010-02-21-safari-view-source-in-textmate
-  2009-12-19-jquery-getobject-plugin
-  2009-08-23-jquery-postmessage-plugin
-EOF
-
-## blog posts -> non-dated articles
-mv <<-EOF.unindent, &strip_dates
-  2010-03-28-jquery-special-events
-  2010-11-15-immediately-invoked-function-expression
-  2010-04-24-cooking-bbq-the-original-recipe
-  2009-12-20-jquery-14-param-demystified
-  2010-02-28-on-licensing-my-code
-  2010-03-03-theres-no-such-thing-as-a-json
-  2010-09-16-partial-application-in-javascript
-  2009-10-07-gyazo-on-your-own-server
-  2009-07-15-the-mysterious-firefox-settime
-  2010-11-12-schrecklichwissen-terrible-kno
-  2009-12-18-john-resig-javascripts-chuck-norris
-  2010-01-27-jonathan-neal-ben-alman-dot-com
-  2009-06-11-change-bbedit-invisibles-color
-EOF
 =end
