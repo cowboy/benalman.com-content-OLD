@@ -315,7 +315,7 @@
   path_orig: projects/bookmarklets
   path_new: bookmarklets
   title: Bookmarklets
-  subtitle: 
+  subtitle: JavaScript utilities that are always just a click away.
   publish: true
   categories: 
   - Projects
@@ -340,7 +340,7 @@
   path_orig: projects/javascript-emotify
   path_new: javascript-emotify
   title: JavaScript Emotify
-  subtitle: "Making the web a better place, one tiny image at a time... "
+  subtitle: Making the web a more expressive place, one image at a time...
   publish: true
   categories: 
   - Projects
@@ -360,19 +360,19 @@
   path_orig: projects/multi-firefox-launcher
   path_new: multi-firefox-launcher
   title: Multi-Firefox Launcher
-  subtitle: 
+  subtitle: Streamline your Firefox testing process.
   publish: true
   categories: 
   - Projects
   - AppleScript
   incl_names: 
-  - file1.applescript
+  - multi-firefox-launcher.applescript
 2010-02-22-finder-copy-open-window-paths: 
   url: http://benalman.com/projects/finder-copy-open-window-paths/ (ignored)
   path_orig: projects/finder-copy-open-window-paths
   path_new: finder-copy-open-window-paths
   title: Finder Copy Open Window Paths
-  subtitle: 
+  subtitle: '"Go to folder" just made a new best friend.'
   publish: true
   categories: 
   - Projects
@@ -384,7 +384,7 @@
   path_orig: projects/safari-view-source-in-textmate
   path_new: safari-view-source-in-textmate
   title: Safari View Source in TextMate
-  subtitle: 
+  subtitle: This does exactly what you'd think.
   publish: true
   categories: 
   - Projects

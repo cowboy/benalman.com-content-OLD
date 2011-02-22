@@ -12,15 +12,9 @@ re-write all internal URLs
 TOC
 convert <!--MORE--> to --- |
 
-combine headers:
-  jQuery longUrl
-  jQuery Bookmarklet Generator
-
 image:
   equalizeBottoms
 
-broken:
-  JavaScript Emotify
 =end
 
 require 'fileutils'
@@ -129,8 +123,11 @@ $entries.each do |path, e|
     loc = $4.index(',') ? $4 : "#{$4}, MA"
     date = $1.sub('Nov', 'November')
     m.subtitle = "#{date} in #{loc}"
-  elsif path == 'simplified-style'
+  elsif mm['path_new'] == 'simplified-style'
     e.content.sub!(/Simplified was designed with these goals in mind:/, "## Design goals")
+  elsif mm['path_new'] =~ /^(?:run-jquery-code-bookmarklet|jquery-longurl)$/
+    e.content.sub!(/^## Usage.*$\n\n/, '')
+    e.content.gsub!(/^###(.*)$/) {|matches| "## Usage:#{$1.downcase}"}
   end
 
   # Category-specific tweaks.
@@ -263,7 +260,7 @@ $entries.each do |path, e|
       value = m[key.to_sym]
       if value.class == Array
         "#{key}: [#{value.join(', ')}]"
-      elsif value =~ /^'|: /
+      elsif value =~ /^'|^"|: /
         if value =~ /"/
           "#{key}: '#{value.gsub("'", "\\'")}'"
         else
