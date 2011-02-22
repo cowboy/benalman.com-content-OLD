@@ -1,3 +1,28 @@
+# encoding: utf-8
+
+=begin
+TODO:
+
+applescript filter
+bookmarklet filter
+image dropshadows: http://localhost:4567/simplified-style
+php proxy: inline source?
+bookmarklet generator?
+re-write all internal URLs
+TOC
+convert <!--MORE--> to --- |
+
+combine headers:
+  jQuery longUrl
+  jQuery Bookmarklet Generator
+
+image:
+  equalizeBottoms
+
+broken:
+  JavaScript Emotify
+=end
+
 require 'fileutils'
 require 'yaml'
 require 'awesome_print'
@@ -98,12 +123,42 @@ $entries.each do |path, e|
   # Get non-date path and yyyy/mm date from original path.
   path, date = path.sub(/^(\d{4})-(\d{2})-\d{2}-/, ''), "#{$1}/#{$2}"
 
+  # Content-specific tweaks.
+  if m.title =~ %r{Gig: (.*?) w/ (.*?) @ (.*?) in (.*)}
+    m.title = "Gig: #{$2} @ #{$3}"
+    loc = $4.index(',') ? $4 : "#{$4}, MA"
+    date = $1.sub('Nov', 'November')
+    m.subtitle = "#{date} in #{loc}"
+  elsif path == 'simplified-style'
+    e.content.sub!(/Simplified was designed with these goals in mind:/, "## Design goals")
+  end
+
   # Category-specific tweaks.
   if m.categories.first =~ /^(?:Projects|Music$)/
     m.title, m.subtitle = m.title.split(/:\s+/)
     #m.path = path
   elsif m.categories.first == 'News' && m.categories.index('Project')
     #m.categories.first ==
+  end
+
+  # Normalize headers to start with H2, and not skip any.
+  hlens = e.content.scan(/^(#+)/).map {|h| h[0].length}.uniq.sort.reverse
+  hlens.reverse.each_index do |idx|
+    n = hlens.length - idx + 1
+    e.content.gsub!(/^\#{#{hlens[idx]}} /, "#{'§' * n} ")
+  end
+  e.content.gsub!(/^(§+)(.*?)\s*#*\s*$/) {|matches| "#{'#' * $1.length}#{$2}\n"}
+
+  # Toc
+  if m.categories.index('Projects') && mm['details'] != false
+    e.content.sub!(%r{(\n\s*[*][^\n*]+\n\s*[*])}m, "\n\n## Project details\\1")
+  end
+
+  if (m.categories.index('Projects') || mm['toc']) && mm['toc'] != false
+    e.content.sub!(%r{(## (?:Project details|Up!|Design goals))}, "{{ toc }}\n\n\\1") ||
+      e.content.sub!(%r{(<!--MORE-->)}, "\\1\n\n{{ toc }}")
+
+    e.content.gsub!(%r{^\s*<a name="[^"]*"></a>\s*$}, '')
   end
 
   # Original path.
@@ -180,14 +235,6 @@ $entries.each do |path, e|
     resp = Net::HTTP.get_response 'benalman.com', "/#{e.path_orig}/"
     raise "Bad URL: #{e.path_orig} (Status: #{resp.code})" if resp.code != '200'
   end
-
-  # Content-specific tweaks.
-  if m.title =~ %r{Gig: (.*?) w/ (.*?) @ (.*?) in (.*)}
-    m.title = "Gig: #{$2} @ #{$3}"
-    loc = $4.index(',') ? $4 : "#{$4}, MA"
-    date = $1.sub('Nov', 'November')
-    m.subtitle = "#{date} in #{loc}"
-  end
 end
 
 #ap temp
@@ -251,6 +298,8 @@ FileUtils.cd($files_out)
 `git init .`
 `git add .`
 `git commit -m "Initial import of content from old site."`
+
+FileUtils.touch('/Users/cowboy/Sites/benalman.com/new/gaucho/DELETE.rb')
 
 =begin
 def generate_meta

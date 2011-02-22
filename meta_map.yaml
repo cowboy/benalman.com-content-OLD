@@ -1,10 +1,12 @@
 --- 
 2010-02-12-jquery-misc-plugins: 
   url: http://benalman.com/projects/jquery-misc-plugins/ (ignored)
+  toc: false
+  details: false
   path_orig: projects/jquery-misc-plugins
-  path_new: jquery-misc-plugins
-  title: jQuery Misc plugins
-  subtitle: Odds & Ends.
+  path_new: misc-jquery-plugins
+  title: Miscellaneous jQuery plugins
+  subtitle: Assorted Odds & Ends.
   publish: true
   categories: 
   - Projects
@@ -28,7 +30,7 @@
 2009-10-03-jquery-bbq-plugin: 
   url: http://benalman.com/projects/jquery-bbq-plugin/ (ignored)
   path_orig: projects/jquery-bbq-plugin
-  path_new: jquery-bbq-plugin
+  path_new: jquery-bbq
   title: jQuery BBQ
   subtitle: Back Button & Query Library.
   publish: true
@@ -45,7 +47,7 @@
 2010-03-06-jquery-throttle-debounce-plugin: 
   url: http://benalman.com/projects/jquery-throttle-debounce-plugin/ (ignored)
   path_orig: projects/jquery-throttle-debounce-plugin
-  path_new: jquery-throttle-debounce-plugin
+  path_new: jquery-throttle-debounce
   title: jQuery throttle / debounce
   subtitle: Sometimes, less is more!
   publish: true
@@ -58,7 +60,7 @@
 2010-02-27-jquery-outside-events-plugin: 
   url: http://benalman.com/projects/jquery-outside-events-plugin/ (ignored)
   path_orig: projects/jquery-outside-events-plugin
-  path_new: jquery-outside-events-plugin
+  path_new: jquery-outside-events
   title: jQuery outside events
   subtitle: Why trigger an event on something, when you can trigger it on everything else?
   publish: true
@@ -70,9 +72,9 @@
 2010-07-22-jquery-hashchange-plugin: 
   url: http://benalman.com/projects/jquery-hashchange-plugin/ (ignored)
   path_orig: projects/jquery-hashchange-plugin
-  path_new: jquery-hashchange-plugin
+  path_new: jquery-hashchange
   title: jQuery hashchange event
-  subtitle: A Cross-browser HTML5 window.onhashchange event.
+  subtitle: A Cross-browser HTML5 onhashchange event.
   publish: true
   categories: 
   - Projects
@@ -81,10 +83,11 @@
   - usage.js
 2009-07-10-jquery-url-utils-plugin: 
   url: http://benalman.com/projects/jquery-url-utils-plugin/ (ignored)
+  toc: false
   path_orig: projects/jquery-url-utils-plugin
-  path_new: jquery-url-utils-plugin
-  title: jQuery URL Utils
-  subtitle: Query String, Fragment and more.
+  path_new: jquery-url-utils
+  title: jQuery URL utils
+  subtitle: Query string, fragment and more.
   publish: true
   categories: 
   - Projects
@@ -92,7 +95,7 @@
 2010-01-05-jquery-message-queuing-plugin: 
   url: http://benalman.com/projects/jquery-message-queuing-plugin/ (ignored)
   path_orig: projects/jquery-message-queuing-plugin
-  path_new: jquery-message-queuing-plugin
+  path_new: jquery-message-queuing
   title: jQuery Message Queuing
   subtitle: Get all your JavaScript ducks in a row.
   publish: true
@@ -106,7 +109,7 @@
 2009-08-23-jquery-postmessage-plugin: 
   url: http://benalman.com/projects/jquery-postmessage-plugin/ (ignored)
   path_orig: projects/jquery-postmessage-plugin
-  path_new: jquery-postmessage-plugin
+  path_new: jquery-postmessage
   title: jQuery postMessage
   subtitle: Cross-domain scripting goodness!
   publish: true
@@ -119,7 +122,7 @@
 2009-10-06-jquery-urlinternal-plugin: 
   url: http://benalman.com/projects/jquery-urlinternal-plugin/ (ignored)
   path_orig: projects/jquery-urlinternal-plugin
-  path_new: jquery-urlinternal-plugin
+  path_new: jquery-urlinternal
   title: jQuery urlInternal
   subtitle: Easily test URL internal-, external-, or fragment-ness.
   publish: true
@@ -131,7 +134,7 @@
 2009-07-01-jquery-cond-plugin: 
   url: http://benalman.com/projects/jquery-cond-plugin/ (ignored)
   path_orig: projects/jquery-cond-plugin
-  path_new: jquery-cond-plugin
+  path_new: jquery-cond
   title: jQuery cond
   subtitle: A chainable "if-then-else" statement.
   publish: true
@@ -142,11 +145,11 @@
   - usage.js
   - example-basic.js
   - example-callback.js
-  - doonce.js
+  - do-once.js
 2009-11-21-jquery-replacetext-plugin: 
   url: http://benalman.com/projects/jquery-replacetext-plugin/ (ignored)
   path_orig: projects/jquery-replacetext-plugin
-  path_new: jquery-replacetext-plugin
+  path_new: jquery-replacetext
   title: jQuery replaceText
   subtitle: String replace for your jQueries!
   publish: true
@@ -158,7 +161,7 @@
 2009-07-19-jquery-unwrap-plugin: 
   url: http://benalman.com/projects/jquery-unwrap-plugin/ (ignored)
   path_orig: projects/jquery-unwrap-plugin
-  path_new: jquery-unwrap-plugin
+  path_new: jquery-unwrap
   title: jQuery unwrap
   subtitle: The opposite of .wrap, pretty much.
   publish: true
@@ -166,15 +169,15 @@
   - Projects
   - jQuery
   incl_names: 
-  - naive.js
+  - too-naive.js
   - oops.js
   - eureka.js
 2010-02-06-jquery-resize-plugin: 
   url: http://benalman.com/projects/jquery-resize-plugin/ (ignored)
   path_orig: projects/jquery-resize-plugin
-  path_new: jquery-resize-plugin
+  path_new: jquery-resize
   title: jQuery resize event
-  subtitle: Bind resize event handlers to anything!
+  subtitle: Bind resize event handlers to any element!
   publish: true
   categories: 
   - Projects
@@ -184,7 +187,7 @@
 2009-07-15-jquery-dotimeout-plugin: 
   url: http://benalman.com/projects/jquery-dotimeout-plugin/ (ignored)
   path_orig: projects/jquery-dotimeout-plugin
-  path_new: jquery-dotimeout-plugin
+  path_new: jquery-dotimeout
   title: jQuery doTimeout
   subtitle: Like setTimeout, but better.
   publish: true
@@ -199,9 +202,9 @@
 2009-11-08-jquery-equalizebottoms-plugin: 
   url: http://benalman.com/projects/jquery-equalizebottoms-plugin/ (ignored)
   path_orig: projects/jquery-equalizebottoms-plugin
-  path_new: jquery-equalizebottoms-plugin
+  path_new: jquery-equalizebottoms
   title: jQuery equalizeBottoms
-  subtitle: 
+  subtitle: For when CSS doesn't quite cut it.
   publish: true
   categories: 
   - Projects
@@ -211,34 +214,34 @@
 2009-12-01-jquery-untils-plugin: 
   url: http://benalman.com/projects/jquery-untils-plugin/ (ignored)
   path_orig: projects/jquery-untils-plugin
-  path_new: jquery-untils-plugin
-  title: jQuery Untils
-  subtitle: nextUntil, prevUntil, parentsUntil
+  path_new: jquery-untils
+  title: jQuery untils
+  subtitle: .nextUntil, .prevUntil, .parentsUntil.
   publish: true
   categories: 
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
+  - usage.js
 2009-06-01-jquery-iff-plugin: 
   url: http://benalman.com/projects/jquery-iff-plugin/ (ignored)
   path_orig: projects/jquery-iff-plugin
-  path_new: jquery-iff-plugin
+  path_new: jquery-iff
   title: jQuery iff
-  subtitle: A chainable "if" statement
+  subtitle: A chainable "if" statement.
   publish: true
   categories: 
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
-  - file2.js
-  - file3.js
-  - file4.js
+  - before.js
+  - after.js
+  - other-example.js
+  - do-once.js
 2009-12-19-jquery-getobject-plugin: 
   url: http://benalman.com/projects/jquery-getobject-plugin/ (ignored)
   path_orig: projects/jquery-getobject-plugin
-  path_new: jquery-getobject-plugin
+  path_new: jquery-getobject
   title: jQuery getObject
   subtitle: get.and.set.deep.objects.easily = true;
   publish: true
@@ -246,49 +249,49 @@
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
+  - usage.js
 2010-01-23-jquery-longurl-plugin: 
   url: http://benalman.com/projects/jquery-longurl-plugin/ (ignored)
   path_orig: projects/jquery-longurl-plugin
-  path_new: jquery-longurl-plugin
+  path_new: jquery-longurl
   title: jQuery longUrl
-  subtitle: Uniform Resource Elongator
+  subtitle: Uniform resource elongator.
   publish: true
   categories: 
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
-  - file2.js
-  - file3.js
+  - basic.js
+  - advanced.js
+  - fancy.js
 2009-06-26-run-jquery-code-bookmarklet: 
   url: http://benalman.com/projects/run-jquery-code-bookmarklet/ (ignored)
   path_orig: projects/run-jquery-code-bookmarklet
   path_new: run-jquery-code-bookmarklet
   title: jQuery Bookmarklet Generator
-  subtitle: 
+  subtitle: An easy way to run your jQueries in a bookmarklet.
   publish: true
   categories: 
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
+  - source.js
 2009-10-09-jquery-starwipe-plugin: 
   url: http://benalman.com/projects/jquery-starwipe-plugin/ (ignored)
   path_orig: projects/jquery-starwipe-plugin
-  path_new: jquery-starwipe-plugin
-  title: jQuery Star Wipe
-  subtitle: "Why eat hamburger when you can have steak? "
+  path_new: jquery-starwipe
+  title: jQuery star wipe
+  subtitle: Why eat hamburger when you can have steak?
   publish: true
   categories: 
   - Projects
   - jQuery
   incl_names: 
-  - file1.js
+  - starwipe.js
 2010-01-01-php-simple-proxy: 
   url: http://benalman.com/projects/php-simple-proxy/ (ignored)
   path_orig: projects/php-simple-proxy
-  path_new: php-simple-proxy
+  path_new: simple-php-proxy
   title: Simple PHP Proxy
   subtitle: JavaScript finally "gets" cross-domain!
   publish: true
@@ -297,16 +300,18 @@
   - PHP
 2009-08-24-simplified-style: 
   url: http://benalman.com/projects/simplified-style/ (ignored)
+  details: false
   path_orig: projects/simplified-style
   path_new: simplified-style
   title: Simplified
-  subtitle: a Linkinus Style
+  subtitle: A WebKit message style for Linkinus.
   publish: true
   categories: 
   - Projects
   - Misc
 2009-11-14-bookmarklets: 
   url: http://benalman.com/projects/bookmarklets/ (ignored)
+  details: false
   path_orig: projects/bookmarklets
   path_new: bookmarklets
   title: Bookmarklets
