@@ -64,6 +64,10 @@ $img_map = {
 
 # Do metadata tweaking here.
 $meta_map = YAML.load_file('meta_map.yaml')
+$url_map = {}
+$meta_map.each do |path, mm|
+  $url_map[mm['path_orig']] = mm['path_new']
+end
 
 temp = {}
 
@@ -77,6 +81,42 @@ def img_src_file(src)
     src
   end
   [src, file]
+end
+
+# Rewrite all old benalman.com paths to new paths.
+def map_url(orig_url, absolute = nil)
+  if orig_url =~ /\S/
+    orig_url.sub!(%r{/$}, '')
+    url = $url_map[orig_url] || orig_url
+    url = "#{absolute ? 'http://benalman.com' : ''}/#{url}"
+    puts "#{absolute ? '* ' : ''}#{url} (#{orig_url})"
+    # TODO: handle /photo, /donate, /code, /about*, etc
+    # TODO: test across all pages
+    #"___/#{url}___"
+    url
+  else
+    orig_url
+  end
+end
+
+def rewrite_urls(content)
+  content.gsub!(%r{(["'])(?:http://benalman.com)?/(.*?)\1}) do |match|
+    "#{$1}#{map_url($2)}#{$1}"
+  end
+  content.gsub!(%r{\((?:http://benalman.com)?/(.*?)\)}) do |match|
+    "#(#{map_url($1)})"
+  end
+  content.gsub!(%r{(\[[^\]]+\]: )(?:http://benalman.com)?/(.*?)(\s|$)}) do |match|
+    "#{$1}#{map_url($2)}#{$3}"
+  end
+  content
+end
+
+def rewrite_urls_file(content)
+  content.gsub!(%r{([*] )(?:http://benalman.com)?/(.*?)(\s|$)}) do |match|
+    "#{$1}#{map_url($2, true)}#{$3}"
+  end
+  content
 end
 
 # Iterate over entries.
@@ -106,7 +146,7 @@ $entries.each do |path, e|
   e.incl_contents = []
   i = 0
   e.content.gsub!(%r{<pre(\b[^>]*)>(.*?)</pre>}m) do |match|
-    e.incl_contents << CGI::unescapeHTML($2.unindent.strip)
+    e.incl_contents << rewrite_urls_file(CGI::unescapeHTML($2.unindent.strip))
     ext = $1[/\bbrush:(\w+)\b/, 1]
     name = mm['incl_names'][i] #"file#{i}.#{ext}"
     e.incl_names << name
@@ -128,6 +168,8 @@ $entries.each do |path, e|
   elsif mm['path_new'] =~ /^(?:run-jquery-code-bookmarklet|jquery-longurl)$/
     e.content.sub!(/^## Usage.*$\n\n/, '')
     e.content.gsub!(/^###(.*)$/) {|matches| "## Usage:#{$1.downcase}"}
+  elsif mm['path_new'] == '2010-01-27-jonathan-neal-ben-alman-dot-com'
+    e.content.sub!(/\.irc \}\}/, '.irc | code(nolines: true) }}')
   end
 
   # Category-specific tweaks.
@@ -178,6 +220,9 @@ $entries.each do |path, e|
       "{{ #{img} | flickr(#{link}) }}"
     end
   end
+  
+  # Gaucho-filterize soundcloud players.
+  e.content.gsub!(%r{<p class="soundcloud"><a href="([^"]+)".*?</p>}, '{{ \1 | soundcloud }}')
 
   # Remove any inline forms (simplified: paypal donate).
   e.content.gsub!(%r{<form.*?</form>}mi, '')
@@ -225,6 +270,9 @@ $entries.each do |path, e|
       "{{ #{file} | image(#{alt}) }}"
     end
   end
+
+  # Rewrite all old paths to new paths.
+  rewrite_urls(e.content)
 
   # Ensure original path is valid.
   if false
