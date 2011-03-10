@@ -315,7 +315,7 @@
   path_orig: projects/bookmarklets
   path_new: bookmarklets
   title: Bookmarklets
-  subtitle: JavaScript utilities that are always just a click away.
+  subtitle: Browser tweaks that are always just one click away.
   publish: true
   categories: 
   - Projects
@@ -323,7 +323,7 @@
 2010-06-22-javascript-debug-console-log: 
   url: http://benalman.com/projects/javascript-debug-console-log/ (ignored)
   path_orig: projects/javascript-debug-console-log
-  path_new: javascript-debug-console-log
+  path_new: javascript-debug
   title: JavaScript Debug
   subtitle: A simple wrapper for console.log.
   publish: true
@@ -663,6 +663,7 @@
   - Photo
   - Work
 2009-11-26-im-thankful-thats-for-sure: 
+  todo: 1
   url: http://benalman.com/news/2009/11/im-thankful-thats-for-sure/ (ignored)
   path_orig: news/2009/11/im-thankful-thats-for-sure
   path_new: 2009-11-26-im-thankful-thats-for-sure
@@ -726,9 +727,10 @@
   - Personal
   - Photo
 2010-12-07-yes-dear: 
+  todo: 1
   url: http://benalman.com/news/2010/12/yes-dear/ (ignored)
   path_orig: news/2010/12/yes-dear
-  path_new: 2010-12-07-yes-dear
+  path_new: yes-dear
   title: Yes, dear.
   subtitle: 
   publish: true
@@ -1151,9 +1153,10 @@
   - News
   - Geek
 2010-11-12-schrecklichwissen-terrible-kno: 
+  todo: 1
   url: http://benalman.com/news/2010/11/schrecklichwissen-terrible-kno/ (ignored)
   path_orig: news/2010/11/schrecklichwissen-terrible-kno
-  path_new: 2010-11-12-schrecklichwissen-terrible-kno
+  path_new: schrecklichwissen-terrible-knowledge
   title: "Schrecklichwissen: Terrible Knowledge"
   subtitle: 
   publish: true
@@ -1161,9 +1164,10 @@
   - News
   - Geek
 2009-12-18-john-resig-javascripts-chuck-norris: 
+  todo: 1
   url: http://benalman.com/news/2009/12/john-resig-javascripts-chuck-norris/ (ignored)
   path_orig: news/2009/12/john-resig-javascripts-chuck-norris
-  path_new: 2009-12-18-john-resig-javascripts-chuck-norris
+  path_new: john-resig-javascripts-chuck-norris
   title: "John Resig: JavaScript's Chuck Norris"
   subtitle: 
   publish: true
@@ -1210,46 +1214,48 @@
 2010-03-28-jquery-special-events: 
   url: http://benalman.com/news/2010/03/jquery-special-events/ (ignored)
   path_orig: news/2010/03/jquery-special-events
-  path_new: 2010-03-28-jquery-special-events
+  path_new: jquery-special-events
   title: jQuery special events
   subtitle: 
+  toc: false
   publish: true
   categories: 
   - News
   - Code
   incl_names: 
-  - file1.js
-  - file2.js
-  - file3.js
-  - file4.js
-  - file5.js
-  - file6.js
-  - file7.js
-  - file8.js
-  - file9.js
-  - file10.js
-  - file11.js
-  - file12.js
-  - file13.js
-  - file14.js
-  - file15.js
-  - file16.js
-  - file17.js
-  - file18.js
-  - file19.js
-  - file20.js
-  - file21.js
-  - file22.js
-  - file23.js
-  - file24.js
-  - file25.js
-  - file26.js
+  - api.js
+  - pattern.js
+  - supporting-jquery-140-141-142.js
+  - click.js
+  - click-usage.js
+  - tripleclick.js
+  - tripleclick-usage.js
+  - tripleclick-per-element.js
+  - tripleclick-per-element-usage.js
+  - resize-heavy-polling.js
+  - resize-heavy-polling-usage.js
+  - resize-minimal-polling.js
+  - resize-minimal-polling-usage.js
+  - clickdisabled.js
+  - clickdisabled-usage.js
+  - hashchange.js
+  - hashchange-usage.js
+  - clickoutside.js
+  - clickoutside-usage.js
+  - tripleclick-per-handler.js
+  - tripleclick-per-handler-usage.js
+  - extra-credit.js
+  - destroy.js
+  - destroy-usage.js
+  - clickoutside-delegation.js
+  - clickoutside-delegation-usage.js
 2010-04-24-cooking-bbq-the-original-recipe: 
+  todo: 1
   url: http://benalman.com/news/2010/04/cooking-bbq-the-original-recipe/ (ignored)
   path_orig: news/2010/04/cooking-bbq-the-original-recipe
-  path_new: 2010-04-24-cooking-bbq-the-original-recipe
+  path_new: cooking-bbq-the-original-recipe
   title: "Cooking BBQ: the original recipe"
-  subtitle: 
+  subtitle: The true story behind the internet's tastiest rub.
   publish: true
   categories: 
   - News
@@ -1261,24 +1267,24 @@
 2009-12-20-jquery-14-param-demystified: 
   url: http://benalman.com/news/2009/12/jquery-14-param-demystified/ (ignored)
   path_orig: news/2009/12/jquery-14-param-demystified
-  path_new: 2009-12-20-jquery-14-param-demystified
+  path_new: jquery-14-param-demystified
   title: jQuery 1.4 $.param demystified
-  subtitle: 
+  subtitle: The "state of the query string" in jQuery.
   publish: true
   categories: 
   - News
   - Code
   incl_names: 
-  - file1.html
-  - file2.php
-  - file3.text
-  - file4.php
-  - file5.html
-  - file6.php
-  - file7.text
-  - file8.js
-  - file9.js
-  - file10.js
+  - form.html
+  - dump.php
+  - result.text
+  - array_push.php
+  - form-modern.html
+  - dump.php
+  - result-modern.text
+  - jquery-132.js
+  - jquery-14.js
+  - extreme.js
 2010-11-15-immediately-invoked-function-expression: 
   url: http://benalman.com/news/2010/11/immediately-invoked-function-expression/ (ignored)
   path_orig: news/2010/11/immediately-invoked-function-expression
@@ -1392,7 +1398,7 @@
 2009-09-24-chrome-browser-history-buggine: 
   url: http://benalman.com/news/2009/09/chrome-browser-history-buggine/ (ignored)
   path_orig: news/2009/09/chrome-browser-history-buggine
-  path_new: 2009-09-24-chrome-browser-history-buggine
+  path_new: 2009-09-24-chrome-browser-history-bugginess
   title: Chrome, browser history, bugginess
   subtitle: 
   publish: true

@@ -16,9 +16,9 @@ Simplified is a WebKit message style for the popular OS X [Linkinus][linkinus] I
 
 Simplified is included with Linkinus 2.0.2 and newer, but updates will made available here first as the style is updated.
 
-Latest version: [Simplified v2.0](http://benalman.com/code/projects/simplified/dist/Simplified-2.0.zip) (included with Linkinus 2.0.2)
+Latest version: [Simplified v2.2.1][latest]
 
-Also, feel free to visit [#Simplified on irc.conceited.net](irc://irc.conceited.net/Simplified) for style testing and discussion!
+[latest]: https://github.com/cowboy/Simplified.lnk2Style/zipball/v2.2.1
 
 Simplified was designed with these goals in mind:
 
@@ -36,15 +36,26 @@ In addition to meeting these goals, Simplified also supports:
  * Exploding emoticons - just click them!
  * Clicking on a nickname will spotlight that user's text in that channel.
 
-## Variants: Light and Dark ##
+## Installation Instructions ##
 
-Simplified supports variants, and as such comes with two. Light and Dark are both available, so you can choose whichever suits you. Let me know if you create a good one, and I might include it in the next version!
+ 1. Download [the latest version][latest] (.zip) and extract it.
+ 2. Rename the created folder to `Simplified.lnk2Style`.
+ 3. Double-click to install in Linkinus.
+
+Also, feel free to visit [#linkinus on irc.conceited.net](irc://irc.conceited.net/linkinus) for style testing and discussion!
+
+## Variants: Light, Dark and Stealth ##
+
+Simplified supports variants, and as such comes with three. Choose whichever suits you. Let me know if you create a good one, and I might include it in the next version!
 
 ### Light ###
 ![Light Variant](/images/simplified/light.gif)
 
 ### Dark ###
 ![Dark Variant](/images/simplified/dark.gif)
+
+### Stealth ###
+![Stealth Variant](http://gyazo.com/b1e4edf6728596ed4235f96c2b2bda56.png)
 
 ## Channel topic ##
 
@@ -127,4 +138,3 @@ Thanks!
  [linkinus]: http://conceitedsoftware.com/products/linkinus
  [emoticons]: http://www.adiumxtras.com/index.php?a=search&cat_id=2&sort=downloads
  [emotify]: http://benalman.com/projects/javascript-emotify/
-

@@ -59,7 +59,8 @@ $img_map = {
   "f52855" => "profilemanager",
   "ed0d7d" => "profile",
   "35e0a6" => "launch",
-  "d2dff6" => "success"
+  "d2dff6" => "success",
+  "b1e4edf6728596ed4235f96c2b2bda56" => "stealth" # TODO: VERIFY
 }
 
 # Do metadata tweaking here.
@@ -75,7 +76,7 @@ def img_src_file(src)
   src = "http://benalman.com#{src}" if src.start_with? '/'
   #puts src
   src.sub!(%r{.*/}, '')
-  file = if src =~ /([a-f0-9]{6})(\.png)/ && $img_map[$1]
+  file = if src =~ /([a-f0-9]{6,40})(\.png)/ && $img_map[$1]
     "#{$img_map[$1]}#{$2}"
   else
     src
@@ -87,9 +88,9 @@ end
 def map_url(orig_url, absolute = nil)
   if orig_url =~ /\S/
     orig_url.sub!(%r{/$}, '')
-    url = $url_map[orig_url] || orig_url
+    url = $url_map[orig_url] ? $url_map[orig_url].sub(/^(\d{4})-(\d{2})-(\d{2})-/, '\1/\2/') : orig_url
     url = "#{absolute ? 'http://benalman.com' : ''}/#{url}"
-    puts "#{absolute ? '* ' : ''}#{url} (#{orig_url})"
+    #puts "#{absolute ? '* ' : ''}#{url} (#{orig_url})"
     # TODO: handle /photo, /donate, /code, /about*, etc
     # TODO: test across all pages
     #"___/#{url}___"
@@ -104,7 +105,7 @@ def rewrite_urls(content)
     "#{$1}#{map_url($2)}#{$1}"
   end
   content.gsub!(%r{\((?:http://benalman.com)?/(.*?)\)}) do |match|
-    "#(#{map_url($1)})"
+    "(#{map_url($1)})"
   end
   content.gsub!(%r{(\[[^\]]+\]: )(?:http://benalman.com)?/(.*?)(\s|$)}) do |match|
     "#{$1}#{map_url($2)}#{$3}"
@@ -170,6 +171,8 @@ $entries.each do |path, e|
     e.content.gsub!(/^###(.*)$/) {|matches| "## Usage:#{$1.downcase}"}
   elsif mm['path_new'] == '2010-01-27-jonathan-neal-ben-alman-dot-com'
     e.content.sub!(/\.irc \}\}/, '.irc | code(nolines: true) }}')
+  elsif mm['path_new'] == 'jquery-14-param-demystified'
+    e.content.gsub!(/(\{\{ result.*?\.text)/, '\1 | code(type: :scheme)')
   end
 
   # Category-specific tweaks.
@@ -300,10 +303,10 @@ $entries.each do |path, e|
     e[prop.to_sym] = mm[prop] if mm[prop]
   end
 
-  if e.publish # && e.incl_names.class == Array && !e.incl_names.empty?
+  if e.publish #&& m[:categories].index('Projects')# && e.incl_names.class == Array && !e.incl_names.empty?
     actual += 1
-    puts '======'
-    puts path
+    #puts '======'
+    #puts path
     metas = %w{title subtitle categories tags date}.map do |key|
       value = m[key.to_sym]
       if value.class == Array
@@ -323,16 +326,16 @@ $entries.each do |path, e|
     FileUtils.mkdir_p(path)
     File.open("#{path}/index.md", 'w') {|f| f.write(index)}
     e.image_names.uniq!
-    p [e.incl_names.length, e.incl_contents.length, e.image_names.length]
+    #p [e.incl_names.length, e.incl_contents.length, e.image_names.length]
     e.incl_names.each_index do |i|
       name = e.incl_names[i]
       data = e.incl_contents[i]
-      puts name
+      #puts name
       File.open("#{path}/#{name}", 'w') {|f| f.write(data)}
     end
     e.image_names.each do |orig_name, new_name|
       FileUtils.cp("#{$images}#{orig_name}", "#{path}/#{new_name}")
-      puts new_name
+      #puts new_name
     end
   end
 end
@@ -344,7 +347,7 @@ FileUtils.cd($files_out)
 `git add .`
 `git commit -m "Initial import of content from old site."`
 
-FileUtils.touch('/Users/cowboy/Sites/benalman.com/new/gaucho/DELETE.rb')
+FileUtils.touch('../../gaucho/DELETE.rb')
 
 =begin
 def generate_meta
