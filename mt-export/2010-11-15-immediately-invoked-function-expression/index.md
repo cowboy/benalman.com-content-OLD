@@ -80,12 +80,12 @@ As you can see, there's a catch. When the parser encounters the `function` keywo
 
 ### An aside: functions, parens, and SyntaxErrors
 
-Interestingly enough, if you were to specify a name for that function and put parens immediately after it, the parser would also throw a SyntaxError, but for a different reason. While parens placed after an expression indicate that the expression is a function to be invoked, parens placed after a statement are totally separate from the preceding statment, and are simply grouping operators.
+Interestingly enough, if you were to specify a name for that function and put parens immediately after it, the parser would also throw a SyntaxError, but for a different reason. While parens placed after an expression indicate that the expression is a function to be invoked, parens placed after a statement are totally separate from the preceding statment, and are simply a grouping operator (used as a means to control precedence of evaluation).
 
 <pre class="brush:js">
   // While this function declaration is now syntactically valid, it's still
-  // a statement, and the following set of parens is invalid because grouping
-  // operators need to contain an expression.
+  // a statement, and the following set of parens is invalid because the
+  // grouping operator needs to contain an expression.
 
   function foo(){ /* code */ }(); // SyntaxError: Unexpected token )
 
@@ -94,7 +94,8 @@ Interestingly enough, if you were to specify a name for that function and put pa
 
   function foo(){ /* code */ }( 1 );
 
-  // Is equivalent to this:
+  // Is really just equivalent to this, a function declaration followed by a
+  // completely unrelated expression:
 
   function foo(){ /* code */ }
 
@@ -332,5 +333,3 @@ Hopefully this article was informative and has answered some of your questions. 
 [module]: http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 
 _I'd like to thank [Asen Bozhilov](http://asenbozhilov.com/) and [John David Dalton](http://allyoucanleet.com/) for contributing technical advice, as well as [Nick Morgan](http://skilldrick.co.uk/) for his insights. If you'd also like to contribute, please post any suggestions or feedback in the comments, thanks!_
-
-

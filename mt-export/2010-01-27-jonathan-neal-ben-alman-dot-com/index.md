@@ -10,9 +10,11 @@ _published: Publish
 
 I never really expected to categorize a post as both "code" and "music," but you know those "there's an app for that" iPhone commercials? Well, apparently, "there's a Ben Alman jQuery plugin for that."
 
-After I had gone to sleep last night, [Jonathan Neal](http://thewikies.com/), author of the [jQuery SWFObject plugin](http://jquery.thewikies.com/swfobject/), [jQuery sIFR plugin](http://jquery.thewikies.com/sifr/), [CMS.txt](http://cms.thewikies.com/) and the creator of the [yayQuery podcast](http://yayquery.com/) theme song posted a new track into IRC...
-
 <!--MORE-->
+
+<p class="soundcloud"><a href="http://soundcloud.com/broken-buddha-records/ben-alman-dot-com">Ben Alman Dot Com</a></p>
+
+After I had gone to sleep last night, [Jonathan Neal](http://thewikies.com/), author of the [jQuery SWFObject plugin](http://jquery.thewikies.com/swfobject/), [jQuery sIFR plugin](http://jquery.thewikies.com/sifr/), [CMS.txt](http://cms.thewikies.com/) and the creator of the [yayQuery podcast](http://yayquery.com/) theme song posted a new track into IRC...
 
 Here's the chat excerpt:
 
@@ -53,6 +55,3 @@ Here's the chat excerpt:
 </pre>
 
 I'm a little sad that I missed all the fun in IRC last night, but I was busy trying to keep two rambunctious kittens off my pillow. And just for the record, I didn't wee myself. But it was pretty damn close.
-
-Oh, and in case you missed it, the track is called "[Ben Alman Dot Com](http://benalman.com/music/other/Jonathan_Neal_-_Ben_Alman_Dot_Com.mp3)".
-

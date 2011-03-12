@@ -5,15 +5,21 @@ TODO:
 
 applescript filter
 bookmarklet filter
-image dropshadows: http://localhost:4567/simplified-style
 php proxy: inline source?
 bookmarklet generator?
 re-write all internal URLs
 TOC
-convert <!--MORE--> to --- |
+convert <!--MORE--> to --- | ???
+remove "comments" references
+normalize (?) "donation" references
 
 image:
   equalizeBottoms
+
+POST-IMPORT!!!
+  gyazo-on-your-own-server: change gyazo script to latest
+  partial-application-in-javascript: reference SJ article
+
 
 =end
 
@@ -164,15 +170,21 @@ $entries.each do |path, e|
     loc = $4.index(',') ? $4 : "#{$4}, MA"
     date = $1.sub('Nov', 'November')
     m.subtitle = "#{date} in #{loc}"
-  elsif mm['path_new'] == 'simplified-style'
+  end
+  
+  # Path-specific tweaks.
+  case mm['path_new']
+  when 'simplified-style'
     e.content.sub!(/Simplified was designed with these goals in mind:/, "## Design goals")
-  elsif mm['path_new'] =~ /^(?:run-jquery-code-bookmarklet|jquery-longurl)$/
+  when /^(?:run-jquery-code-bookmarklet|jquery-longurl)$/
     e.content.sub!(/^## Usage.*$\n\n/, '')
     e.content.gsub!(/^###(.*)$/) {|matches| "## Usage:#{$1.downcase}"}
-  elsif mm['path_new'] == '2010-01-27-jonathan-neal-ben-alman-dot-com'
+  when 'ben-alman-dot-com'
     e.content.sub!(/\.irc \}\}/, '.irc | code(nolines: true) }}')
-  elsif mm['path_new'] == 'jquery-14-param-demystified'
+  when 'jquery-14-param-demystified'
     e.content.gsub!(/(\{\{ result.*?\.text)/, '\1 | code(type: :scheme)')
+    e.content.sub!(%r{<div id="so-what-does-all-this-have to-do-with-jquery-14"></div>\n}, '')
+    e.content.sub!(/#so-what-does-all-this-have to-do-with-jquery-14/, '#so-what-does-all-this-have-to-do-with-jquery-1-4')
   end
 
   # Category-specific tweaks.
@@ -276,6 +288,12 @@ $entries.each do |path, e|
 
   # Rewrite all old paths to new paths.
   rewrite_urls(e.content)
+
+  # Path-specific tweaks.
+  case mm['path_new']
+  when 'cooking-bbq-the-original-recipe'
+    e.content.gsub!(/width: 150/, 'width: 200, style: "float:right;"')
+  end
 
   # Ensure original path is valid.
   if false
