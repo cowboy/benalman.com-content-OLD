@@ -663,12 +663,11 @@
   - Photo
   - Work
 2009-11-26-im-thankful-thats-for-sure: 
-  todo: 1
   url: http://benalman.com/news/2009/11/im-thankful-thats-for-sure/ (ignored)
   path_orig: news/2009/11/im-thankful-thats-for-sure
-  path_new: 2009-11-im-thankful-thats-for-sure
+  path_new: im-thankful-thats-for-sure
   title: I'm thankful, that's for sure
-  subtitle: 
+  subtitle: Life is good.
   publish: true
   categories: 
   - News
@@ -727,12 +726,11 @@
   - Personal
   - Photo
 2010-12-07-yes-dear: 
-  todo: 1
   url: http://benalman.com/news/2010/12/yes-dear/ (ignored)
   path_orig: news/2010/12/yes-dear
   path_new: yes-dear
-  title: Yes, dear.
-  subtitle: 
+  title: Yes, dear
+  subtitle: Feeling good never felt so good.
   publish: true
   categories: 
   - News
@@ -1153,23 +1151,21 @@
   - News
   - Geek
 2010-11-12-schrecklichwissen-terrible-kno: 
-  todo: 1
   url: http://benalman.com/news/2010/11/schrecklichwissen-terrible-kno/ (ignored)
   path_orig: news/2010/11/schrecklichwissen-terrible-kno
   path_new: schrecklichwissen-terrible-knowledge
-  title: "Schrecklichwissen: Terrible Knowledge"
-  subtitle: 
+  title: Schrecklichwissen
+  subtitle: Terrible Knowledge.
   publish: true
   categories: 
   - News
   - Geek
 2009-12-18-john-resig-javascripts-chuck-norris: 
-  todo: 1
   url: http://benalman.com/news/2009/12/john-resig-javascripts-chuck-norris/ (ignored)
   path_orig: news/2009/12/john-resig-javascripts-chuck-norris
   path_new: john-resig-javascripts-chuck-norris
-  title: "John Resig: JavaScript's Chuck Norris"
-  subtitle: 
+  title: John Resig
+  subtitle: JavaScript's Chuck Norris.
   publish: true
   categories: 
   - News
@@ -1250,7 +1246,6 @@
   - clickoutside-delegation.js
   - clickoutside-delegation-usage.js
 2010-04-24-cooking-bbq-the-original-recipe: 
-  todo: 1
   url: http://benalman.com/news/2010/04/cooking-bbq-the-original-recipe/ (ignored)
   path_orig: news/2010/04/cooking-bbq-the-original-recipe
   path_new: cooking-bbq-the-original-recipe
@@ -1660,9 +1655,9 @@
 2010-12-29-the-catch-with-trycatch: 
   url: http://benalman.com/news/2010/12/the-catch-with-trycatch/ (ignored)
   path_orig: news/2010/12/the-catch-with-trycatch
-  path_new: 2010-12-the-catch-with-trycatch
+  path_new: the-catch-with-trycatch
   title: The "catch" with try...catch
-  subtitle: 
+  subtitle: A few (more) interesting quirks in IE6-8.
   publish: true
   categories: 
   - News

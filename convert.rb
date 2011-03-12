@@ -19,7 +19,7 @@ image:
 POST-IMPORT!!!
   gyazo-on-your-own-server: change gyazo script to latest
   partial-application-in-javascript: reference SJ article
-
+  john-resig-javascripts-chuck-norris: pull from comments?
 
 =end
 
