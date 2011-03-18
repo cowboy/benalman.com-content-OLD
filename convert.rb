@@ -3,7 +3,6 @@
 =begin
 TODO:
 
-applescript filter
 bookmarklet filter
 php proxy: inline source?
 bookmarklet generator?
@@ -11,10 +10,8 @@ re-write all internal URLs
 TOC
 convert <!--MORE--> to --- | ???
 remove "comments" references
+review all comments (?)
 normalize (?) "donation" references
-
-image:
-  equalizeBottoms
 
 POST-IMPORT!!!
   gyazo-on-your-own-server: change gyazo script to latest
@@ -293,6 +290,10 @@ $entries.each do |path, e|
   case mm['path_new']
   when 'cooking-bbq-the-original-recipe'
     e.content.gsub!(/width: 150/, 'width: 200, style: "float:right;"')
+  when 'jquery-equalizebottoms'
+    e.content.sub!(%r{{{ 125x125winner.png }}}, '{{ 125x125winner.png | image(style: "float:right;") }}')
+    e.content.sub!(%r{(<a.*?\n\n)({{ toc }}\n\n## Project details\n\n)}, '\2\1')
+    e.content.sub!(/image\(sample\)/, 'image(alt: "sample", class: "noborder")')
   end
 
   # Ensure original path is valid.

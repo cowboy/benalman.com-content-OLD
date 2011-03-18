@@ -4,7 +4,7 @@
   toc: false
   details: false
   path_orig: projects/jquery-misc-plugins
-  path_new: misc-jquery-plugins
+  path_new: jquery-misc
   title: Miscellaneous jQuery plugins
   subtitle: Assorted Odds & Ends.
   publish: true
@@ -203,6 +203,7 @@
   url: http://benalman.com/projects/jquery-equalizebottoms-plugin/ (ignored)
   path_orig: projects/jquery-equalizebottoms-plugin
   path_new: jquery-equalizebottoms
+  toc: false
   title: jQuery equalizeBottoms
   subtitle: For when CSS doesn't quite cut it.
   publish: true
@@ -267,7 +268,7 @@
 2009-06-26-run-jquery-code-bookmarklet: 
   url: http://benalman.com/projects/run-jquery-code-bookmarklet/ (ignored)
   path_orig: projects/run-jquery-code-bookmarklet
-  path_new: run-jquery-code-bookmarklet
+  path_new: bookmarklet-generator
   title: jQuery Bookmarklet Generator
   subtitle: An easy way to run your jQueries in a bookmarklet.
   publish: true
@@ -302,7 +303,7 @@
   url: http://benalman.com/projects/simplified-style/ (ignored)
   details: false
   path_orig: projects/simplified-style
-  path_new: simplified-style
+  path_new: simplified
   title: Simplified
   subtitle: A WebKit message style for Linkinus.
   publish: true
@@ -323,7 +324,7 @@
 2010-06-22-javascript-debug-console-log: 
   url: http://benalman.com/projects/javascript-debug-console-log/ (ignored)
   path_orig: projects/javascript-debug-console-log
-  path_new: javascript-debug
+  path_new: js-debug
   title: JavaScript Debug
   subtitle: A simple wrapper for console.log.
   publish: true
@@ -338,7 +339,7 @@
 2009-11-17-javascript-emotify: 
   url: http://benalman.com/projects/javascript-emotify/ (ignored)
   path_orig: projects/javascript-emotify
-  path_new: javascript-emotify
+  path_new: js-emotify
   title: JavaScript Emotify
   subtitle: Making the web a more expressive place, one image at a time...
   publish: true
@@ -348,7 +349,7 @@
 2009-11-17-javascript-linkify: 
   url: http://benalman.com/projects/javascript-linkify/ (ignored)
   path_orig: projects/javascript-linkify
-  path_new: javascript-linkify
+  path_new: js-linkify
   title: JavaScript Linkify
   subtitle: Process links in text
   publish: true
@@ -390,11 +391,11 @@
   - Projects
   - AppleScript
   incl_names: 
-  - file1.applescript
+  - safari-view-source-in-textmate.applescript
 2010-07-22-jquery-hashchange-event-v13: 
   url: http://benalman.com/news/2010/07/jquery-hashchange-event-v13/ (ignored)
   path_orig: news/2010/07/jquery-hashchange-event-v13
-  path_new: 2010-07-jquery-hashchange-event-v13
+  path_new: 2010-07_jquery-hashchange-event-v13
   title: jQuery hashchange event v1.3
   subtitle: 
   publish: true
@@ -404,7 +405,7 @@
 2010-02-16-jquery-bbq-v12: 
   url: http://benalman.com/news/2010/02/jquery-bbq-v12/ (ignored)
   path_orig: news/2010/02/jquery-bbq-v12
-  path_new: 2010-02-jquery-bbq-v12
+  path_new: 2010-02_jquery-bbq-v12
   title: jQuery BBQ v1.2.1
   subtitle: 
   publish: true
@@ -414,7 +415,7 @@
 2010-01-26-jquery-bbq-v111-also-bbq-jquer: 
   url: http://benalman.com/news/2010/01/jquery-bbq-v111-also-bbq-jquer/ (ignored)
   path_orig: news/2010/01/jquery-bbq-v111-also-bbq-jquer
-  path_new: 2010-01-jquery-bbq-v111-also-bbq-jquer
+  path_new: 2010-01_jquery-bbq-v111-also-bbq-jquery
   title: jQuery BBQ v1.1.1, also BBQ + jQuery 1.3.2 or 1.4?
   subtitle: 
   publish: true
@@ -424,7 +425,7 @@
 2010-02-11-jquery-hashchange-event-v12: 
   url: http://benalman.com/news/2010/02/jquery-hashchange-event-v12/ (ignored)
   path_orig: news/2010/02/jquery-hashchange-event-v12
-  path_new: 2010-02-jquery-hashchange-event-v12
+  path_new: 2010-02_jquery-hashchange-event-v12
   title: jQuery hashchange event v1.2
   subtitle: 
   publish: true
@@ -434,7 +435,7 @@
 2010-01-10-jquery-bbq-v11-and-jquery-hashchange-event-v10: 
   url: http://benalman.com/news/2010/01/jquery-bbq-v11-and-jquery-hashchange-event-v10/ (ignored)
   path_orig: news/2010/01/jquery-bbq-v11-and-jquery-hashchange-event-v10
-  path_new: 2010-01-jquery-bbq-v11-and-jquery-hashchange-event-v10
+  path_new: 2010-01_jquery-bbq-v11-and-jquery-hashchange-event-v10
   title: jQuery BBQ v1.1 and jQuery hashchange event v1.0
   subtitle: 
   publish: true
@@ -444,7 +445,7 @@
 2010-02-12-seven-small-jquery-plugins: 
   url: http://benalman.com/news/2010/02/seven-small-jquery-plugins/ (ignored)
   path_orig: news/2010/02/seven-small-jquery-plugins
-  path_new: 2010-02-seven-small-jquery-plugins
+  path_new: 2010-02_seven-small-jquery-plugins
   title: Seven small jQuery plugins
   subtitle: 
   publish: true
@@ -454,7 +455,7 @@
 2010-03-08-jquery-throttle-debounce-v11: 
   url: http://benalman.com/news/2010/03/jquery-throttle-debounce-v11/ (ignored)
   path_orig: news/2010/03/jquery-throttle-debounce-v11
-  path_new: 2010-03-jquery-throttle-debounce-v11
+  path_new: 2010-03_jquery-throttle-debounce-v11
   title: jQuery throttle / debounce v1.1
   subtitle: 
   publish: true
@@ -464,7 +465,7 @@
 2010-01-21-jquery-hashchange-event-v11: 
   url: http://benalman.com/news/2010/01/jquery-hashchange-event-v11/ (ignored)
   path_orig: news/2010/01/jquery-hashchange-event-v11
-  path_new: 2010-01-jquery-hashchange-event-v11
+  path_new: 2010-01_jquery-hashchange-event-v11
   title: jQuery hashchange event v1.1
   subtitle: 
   publish: true
@@ -474,7 +475,7 @@
 2009-12-02-jquery-bbq-plugin-v103: 
   url: http://benalman.com/news/2009/12/jquery-bbq-plugin-v103/ (ignored)
   path_orig: news/2009/12/jquery-bbq-plugin-v103
-  path_new: 2009-12-jquery-bbq-plugin-v103
+  path_new: 2009-12_jquery-bbq-plugin-v103
   title: jQuery BBQ plugin v1.0.3
   subtitle: 
   publish: true
@@ -484,7 +485,7 @@
 2010-03-03-jquery-dotimeout-v10: 
   url: http://benalman.com/news/2010/03/jquery-dotimeout-v10/ (ignored)
   path_orig: news/2010/03/jquery-dotimeout-v10
-  path_new: 2010-03-jquery-dotimeout-v10
+  path_new: 2010-03_jquery-dotimeout-v10
   title: jQuery doTimeout v1.0
   subtitle: 
   publish: true
@@ -494,7 +495,7 @@
 2010-01-26-jquery-longurl-v10: 
   url: http://benalman.com/news/2010/01/jquery-longurl-v10/ (ignored)
   path_orig: news/2010/01/jquery-longurl-v10
-  path_new: 2010-01-jquery-longurl-v10
+  path_new: 2010-01_jquery-longurl-v10
   title: jQuery longUrl v1.0
   subtitle: 
   publish: true
@@ -504,7 +505,7 @@
 2010-07-06-jquery-hashchange-event-13pre-beta: 
   url: http://benalman.com/news/2010/07/jquery-hashchange-event-13pre-beta/ (ignored)
   path_orig: news/2010/07/jquery-hashchange-event-13pre-beta
-  path_new: 2010-07-jquery-hashchange-event-13pre-beta
+  path_new: 2010-07_jquery-hashchange-event-13pre-beta
   title: jQuery hashchange event 1.3pre beta test
   subtitle: 
   publish: true
@@ -514,7 +515,7 @@
 2010-03-17-jquery-outside-events-v11: 
   url: http://benalman.com/news/2010/03/jquery-outside-events-v11/ (ignored)
   path_orig: news/2010/03/jquery-outside-events-v11
-  path_new: 2010-03-jquery-outside-events-v11
+  path_new: 2010-03_jquery-outside-events-v11
   title: jQuery outside events v1.1
   subtitle: 
   publish: true
@@ -524,7 +525,7 @@
 2010-02-10-jquery-resize-event-v10: 
   url: http://benalman.com/news/2010/02/jquery-resize-event-v10/ (ignored)
   path_orig: news/2010/02/jquery-resize-event-v10
-  path_new: 2010-02-jquery-resize-event-v10
+  path_new: 2010-02_jquery-resize-event-v10
   title: jQuery resize event v1.0
   subtitle: 
   publish: true
@@ -534,7 +535,7 @@
 2009-11-09-jquery-equalizebottoms-plugin-1: 
   url: http://benalman.com/news/2009/11/jquery-equalizebottoms-plugin-1/ (ignored)
   path_orig: news/2009/11/jquery-equalizebottoms-plugin-1
-  path_new: 2009-11-jquery-equalizebottoms-plugin-1
+  path_new: 2009-11_jquery-equalizebottoms-plugin-1
   title: jQuery equalizeBottoms plugin v1.4
   subtitle: 
   publish: true
@@ -544,7 +545,7 @@
 2009-12-24-jquery-getobject-plugin-v11: 
   url: http://benalman.com/news/2009/12/jquery-getobject-plugin-v11/ (ignored)
   path_orig: news/2009/12/jquery-getobject-plugin-v11
-  path_new: 2009-12-jquery-getobject-plugin-v11
+  path_new: 2009-12_jquery-getobject-plugin-v11
   title: jQuery getObject plugin v1.1
   subtitle: 
   publish: true
@@ -554,7 +555,7 @@
 2010-06-24-javascript-debug-v04: 
   url: http://benalman.com/news/2010/06/javascript-debug-v04/ (ignored)
   path_orig: news/2010/06/javascript-debug-v04
-  path_new: 2010-06-javascript-debug-v04
+  path_new: 2010-06_javascript-debug-v04
   title: JavaScript debug v0.4
   subtitle: 
   publish: true
@@ -564,7 +565,7 @@
 2010-03-16-jquery-resize-event-v11: 
   url: http://benalman.com/news/2010/03/jquery-resize-event-v11/ (ignored)
   path_orig: news/2010/03/jquery-resize-event-v11
-  path_new: 2010-03-jquery-resize-event-v11
+  path_new: 2010-03_jquery-resize-event-v11
   title: jQuery resize event v1.1
   subtitle: 
   publish: true
@@ -574,7 +575,7 @@
 2010-03-01-jquery-clickoutside-event-v10: 
   url: http://benalman.com/news/2010/03/jquery-clickoutside-event-v10/ (ignored)
   path_orig: news/2010/03/jquery-clickoutside-event-v10
-  path_new: 2010-03-jquery-clickoutside-event-v10
+  path_new: 2010-03_jquery-clickoutside-event-v10
   title: jQuery clickoutside event v1.0
   subtitle: 
   publish: true
@@ -584,7 +585,7 @@
 2009-11-22-jquery-replacetext-v11: 
   url: http://benalman.com/news/2009/11/jquery-replacetext-v11/ (ignored)
   path_orig: news/2009/11/jquery-replacetext-v11
-  path_new: 2009-11-jquery-replacetext-v11
+  path_new: 2009-11_jquery-replacetext-v11
   title: jQuery replaceText v1.1
   subtitle: 
   publish: true
@@ -594,7 +595,7 @@
 2010-01-04-simple-php-proxy-v15: 
   url: http://benalman.com/news/2010/01/simple-php-proxy-v15/ (ignored)
   path_orig: news/2010/01/simple-php-proxy-v15
-  path_new: 2010-01-simple-php-proxy-v15
+  path_new: 2010-01_simple-php-proxy-v15
   title: Simple PHP Proxy v1.5
   subtitle: 
   publish: true
@@ -604,7 +605,7 @@
 2009-11-18-javascript-emotify-v06: 
   url: http://benalman.com/news/2009/11/javascript-emotify-v06/ (ignored)
   path_orig: news/2009/11/javascript-emotify-v06
-  path_new: 2009-11-javascript-emotify-v06
+  path_new: 2009-11_javascript-emotify-v06
   title: JavaScript Emotify v0.6
   subtitle: 
   publish: true
@@ -614,7 +615,7 @@
 2010-06-21-jquery-queuefn-plugin-v04: 
   url: http://benalman.com/news/2010/06/jquery-queuefn-plugin-v04/ (ignored)
   path_orig: news/2010/06/jquery-queuefn-plugin-v04
-  path_new: 2010-06-jquery-queuefn-plugin-v04
+  path_new: 2010-06_jquery-queuefn-plugin-v04
   title: jQuery queueFn plugin v0.4
   subtitle: 
   publish: true
@@ -624,7 +625,7 @@
 2010-01-06-jquery-message-queuing-plugin-v10: 
   url: http://benalman.com/news/2010/01/jquery-message-queuing-plugin-v10/ (ignored)
   path_orig: news/2010/01/jquery-message-queuing-plugin-v10
-  path_new: 2010-01-jquery-message-queuing-plugin-v10
+  path_new: 2010-01_jquery-message-queuing-plugin-v10
   title: jQuery Message Queuing plugin v1.0
   subtitle: 
   publish: true
@@ -634,7 +635,7 @@
 2010-01-25-simple-php-proxy-v16: 
   url: http://benalman.com/news/2010/01/simple-php-proxy-v16/ (ignored)
   path_orig: news/2010/01/simple-php-proxy-v16
-  path_new: 2010-01-simple-php-proxy-v16
+  path_new: 2010-01_simple-php-proxy-v16
   title: Simple PHP Proxy v1.6
   subtitle: 
   publish: true
@@ -644,7 +645,7 @@
 2010-03-24-jquery-equalizebottoms-plugin-15: 
   url: http://benalman.com/news/2010/03/jquery-equalizebottoms-plugin-15/ (ignored)
   path_orig: news/2010/03/jquery-equalizebottoms-plugin-15
-  path_new: 2010-03-jquery-equalizebottoms-plugin-15
+  path_new: 2010-03_jquery-equalizebottoms-plugin-15
   title: jQuery equalizeBottoms plugin v1.5
   subtitle: 
   publish: true
@@ -654,7 +655,7 @@
 2008-05-06-karen-and-pat: 
   url: http://benalman.com/news/2008/05/karen-and-pat/ (ignored)
   path_orig: news/2008/05/karen-and-pat
-  path_new: 2008-05-karen-and-pat
+  path_new: 2008-05_karen-and-pat
   title: Karen and Pat
   subtitle: 
   publish: true
@@ -665,7 +666,7 @@
 2009-11-26-im-thankful-thats-for-sure: 
   url: http://benalman.com/news/2009/11/im-thankful-thats-for-sure/ (ignored)
   path_orig: news/2009/11/im-thankful-thats-for-sure
-  path_new: im-thankful-thats-for-sure
+  path_new: thankful
   title: I'm thankful, that's for sure
   subtitle: Life is good.
   publish: true
@@ -675,7 +676,7 @@
 2010-01-25-and-then-there-were-two: 
   url: http://benalman.com/news/2010/01/and-then-there-were-two/ (ignored)
   path_orig: news/2010/01/and-then-there-were-two
-  path_new: 2010-01-and-then-there-were-two
+  path_new: 2010-01_and-then-there-were-two
   title: And then there were two!
   subtitle: 
   publish: true
@@ -685,7 +686,7 @@
 2009-10-17-facebook-or-a-tale-of-two-dads: 
   url: http://benalman.com/news/2009/10/facebook-or-a-tale-of-two-dads/ (ignored)
   path_orig: news/2009/10/facebook-or-a-tale-of-two-dads
-  path_new: 2009-10-facebook-or-a-tale-of-two-dads
+  path_new: 2009-10_facebook-or-a-tale-of-two-dads
   title: Facebook, or A Tale of Two Dads
   subtitle: 
   publish: true
@@ -695,7 +696,7 @@
 2009-06-05-dinner-with-the-goldsmiths: 
   url: http://benalman.com/news/2009/06/dinner-with-the-goldsmiths/ (ignored)
   path_orig: news/2009/06/dinner-with-the-goldsmiths
-  path_new: 2009-06-dinner-with-the-goldsmiths
+  path_new: 2009-06_dinner-with-the-goldsmiths
   title: Dinner with the Goldsmiths
   subtitle: 
   publish: true
@@ -705,7 +706,7 @@
 2007-12-23-tis-the-season-for-change: 
   url: http://benalman.com/news/2007/12/tis-the-season-for-change/ (ignored)
   path_orig: news/2007/12/tis-the-season-for-change
-  path_new: 2007-12-tis-the-season-for-change
+  path_new: 2007-12_tis-the-season-for-change
   title: "'Tis the Season.. for Change"
   subtitle: 
   publish: true
@@ -717,7 +718,7 @@
 2009-10-28-loki-in-the-house: 
   url: http://benalman.com/news/2009/10/loki-in-the-house/ (ignored)
   path_orig: news/2009/10/loki-in-the-house
-  path_new: 2009-10-loki-in-the-house
+  path_new: 2009-10_loki-in-the-house
   title: Loki in the house!
   subtitle: 
   publish: true
@@ -738,7 +739,7 @@
 2008-08-06-more-family-fun: 
   url: http://benalman.com/news/2008/08/more-family-fun/ (ignored)
   path_orig: news/2008/08/more-family-fun
-  path_new: 2008-08-more-family-fun
+  path_new: 2008-08_more-family-fun
   title: More Family Fun
   subtitle: 
   publish: true
@@ -749,7 +750,7 @@
 2007-07-07-honeymoon: 
   url: http://benalman.com/news/2007/07/honeymoon/ (ignored)
   path_orig: news/2007/07/honeymoon
-  path_new: 2007-07-honeymoon
+  path_new: 2007-07_honeymoon
   title: Honeymoon!
   subtitle: 
   publish: true
@@ -760,7 +761,7 @@
 2008-06-18-2008-great-boston-beer-maratho: 
   url: http://benalman.com/news/2008/06/2008-great-boston-beer-maratho/ (ignored)
   path_orig: news/2008/06/2008-great-boston-beer-maratho
-  path_new: 2008-06-2008-great-boston-beer-maratho
+  path_new: 2008-06_2008-great-boston-beer-marathon
   title: 2008 Great Boston Beer Marathon
   subtitle: 
   publish: true
@@ -771,7 +772,7 @@
 2007-07-04-were-married: 
   url: http://benalman.com/news/2007/07/were-married/ (ignored)
   path_orig: news/2007/07/were-married
-  path_new: 2007-07-were-married
+  path_new: 2007-07_were-married
   title: We're married!
   subtitle: 
   publish: true
@@ -782,7 +783,7 @@
 2007-06-04-photography-is-fun: 
   url: http://benalman.com/news/2007/06/photography-is-fun/ (ignored)
   path_orig: news/2007/06/photography-is-fun
-  path_new: 2007-06-photography-is-fun
+  path_new: 2007-06_photography-is-fun
   title: Photography is fun!
   subtitle: 
   publish: true
@@ -793,7 +794,7 @@
 2008-02-04-not-much-at-the-moment: 
   url: http://benalman.com/news/2008/02/not-much-at-the-moment/ (ignored)
   path_orig: news/2008/02/not-much-at-the-moment
-  path_new: 2008-02-not-much-at-the-moment
+  path_new: 2008-02_not-much-at-the-moment
   title: Not much at the moment
   subtitle: 
   publish: true
@@ -805,7 +806,7 @@
 2007-07-19-more-honeymoon: 
   url: http://benalman.com/news/2007/07/more-honeymoon/ (ignored)
   path_orig: news/2007/07/more-honeymoon
-  path_new: 2007-07-more-honeymoon
+  path_new: 2007-07_more-honeymoon
   title: More Honeymoon!
   subtitle: 
   publish: true
@@ -816,7 +817,7 @@
 2008-05-19-photo-fun-with-robyn: 
   url: http://benalman.com/news/2008/05/photo-fun-with-robyn/ (ignored)
   path_orig: news/2008/05/photo-fun-with-robyn
-  path_new: 2008-05-photo-fun-with-robyn
+  path_new: 2008-05_photo-fun-with-robyn
   title: Photo Fun with Robyn
   subtitle: 
   publish: true
@@ -827,7 +828,7 @@
 2008-06-15-relay-for-life: 
   url: http://benalman.com/news/2008/06/relay-for-life/ (ignored)
   path_orig: news/2008/06/relay-for-life
-  path_new: 2008-06-relay-for-life
+  path_new: 2008-06_relay-for-life
   title: Relay For Life
   subtitle: 
   publish: true
@@ -838,7 +839,7 @@
 2007-06-10-dans-30th: 
   url: http://benalman.com/news/2007/06/dans-30th/ (ignored)
   path_orig: news/2007/06/dans-30th
-  path_new: 2007-06-dans-30th
+  path_new: 2007-06_dans-30th
   title: Dan's 30th
   subtitle: 
   publish: true
@@ -849,7 +850,7 @@
 2008-07-13-wow-one-year-already: 
   url: http://benalman.com/news/2008/07/wow-one-year-already/ (ignored)
   path_orig: news/2008/07/wow-one-year-already
-  path_new: 2008-07-wow-one-year-already
+  path_new: 2008-07_wow-one-year-already
   title: Wow, One Year Already
   subtitle: 
   publish: true
@@ -860,7 +861,7 @@
 2009-07-12-2009-great-boston-beer-maratho: 
   url: http://benalman.com/news/2009/07/2009-great-boston-beer-maratho/ (ignored)
   path_orig: news/2009/07/2009-great-boston-beer-maratho
-  path_new: 2009-07-2009-great-boston-beer-maratho
+  path_new: 2009-07_2009-great-boston-beer-marathon
   title: 2009 Great Boston Beer Marathon
   subtitle: 
   publish: true
@@ -871,7 +872,7 @@
 2007-05-28-bridal-shower: 
   url: http://benalman.com/news/2007/05/bridal-shower/ (ignored)
   path_orig: news/2007/05/bridal-shower
-  path_new: 2007-05-bridal-shower
+  path_new: 2007-05_bridal-shower
   title: Bridal Shower
   subtitle: 
   publish: true
@@ -882,7 +883,7 @@
 2009-05-21-washington-dc: 
   url: http://benalman.com/news/2009/05/washington-dc/ (ignored)
   path_orig: news/2009/05/washington-dc
-  path_new: 2009-05-washington-dc
+  path_new: 2009-05_washington-dc
   title: Washington, DC
   subtitle: 
   publish: true
@@ -893,7 +894,7 @@
 2007-06-26-so-close: 
   url: http://benalman.com/news/2007/06/so-close/ (ignored)
   path_orig: news/2007/06/so-close
-  path_new: 2007-06-so-close
+  path_new: 2007-06_so-close
   title: So close...
   subtitle: 
   publish: true
@@ -904,7 +905,7 @@
 2009-12-04-she-loves-me-she-loves-me-not: 
   url: http://benalman.com/news/2009/12/she-loves-me-she-loves-me-not/ (ignored)
   path_orig: news/2009/12/she-loves-me-she-loves-me-not
-  path_new: 2009-12-she-loves-me-she-loves-me-not
+  path_new: 2009-12_she-loves-me-she-loves-me-not
   title: She loves me, she loves me not
   subtitle: 
   publish: true
@@ -914,7 +915,7 @@
 2007-07-30-family-fun: 
   url: http://benalman.com/news/2007/07/family-fun/ (ignored)
   path_orig: news/2007/07/family-fun
-  path_new: 2007-07-family-fun
+  path_new: 2007-07_family-fun
   title: Family Fun..
   subtitle: 
   publish: true
@@ -925,7 +926,7 @@
 2008-09-02-newport-jazz-festival: 
   url: http://benalman.com/news/2008/09/newport-jazz-festival/ (ignored)
   path_orig: news/2008/09/newport-jazz-festival
-  path_new: 2008-09-newport-jazz-festival
+  path_new: 2008-09_newport-jazz-festival
   title: Newport Jazz Festival
   subtitle: 
   publish: true
@@ -936,7 +937,7 @@
 2010-03-18-toots-patrice-and-los-amigos: 
   url: http://benalman.com/news/2010/03/toots-patrice-and-los-amigos/ (ignored)
   path_orig: news/2010/03/toots-patrice-and-los-amigos
-  path_new: 2010-03-toots-patrice-and-los-amigos
+  path_new: 2010-03_toots-patrice-and-los-amigos
   title: Toots, Patrice, and Los Amigos
   subtitle: 
   publish: true
@@ -948,7 +949,7 @@
 2011-02-16-gig-february-17-w-pollotronik: 
   url: http://benalman.com/news/2011/02/gig-february-17-w-pollotronik/ (ignored)
   path_orig: news/2011/02/gig-february-17-w-pollotronik
-  path_new: 2011-02-gig-february-17-w-pollotronik
+  path_new: 2011-02_gig-february-17-w-pollotronik
   title: "Gig: Pollotronik All*Stars @ Toad"
   subtitle: February 17 in Cambridge, MA
   publish: true
@@ -958,7 +959,7 @@
 2008-10-01-nyc-the-sox-my-studio: 
   url: http://benalman.com/news/2008/10/nyc-the-sox-my-studio/ (ignored)
   path_orig: news/2008/10/nyc-the-sox-my-studio
-  path_new: 2008-10-nyc-the-sox-my-studio
+  path_new: 2008-10_nyc-the-sox-my-studio
   title: NYC, The Sox, My Studio
   subtitle: 
   publish: true
@@ -970,7 +971,7 @@
 2008-12-16-time-off-for-good-behavior: 
   url: http://benalman.com/news/2008/12/time-off-for-good-behavior/ (ignored)
   path_orig: news/2008/12/time-off-for-good-behavior
-  path_new: 2008-12-time-off-for-good-behavior
+  path_new: 2008-12_time-off-for-good-behavior
   title: Time Off for Good Behavior
   subtitle: 
   publish: true
@@ -982,7 +983,7 @@
 2010-08-31-gig-september-3-w-nephrok-alls: 
   url: http://benalman.com/news/2010/08/gig-september-3-w-nephrok-alls/ (ignored)
   path_orig: news/2010/08/gig-september-3-w-nephrok-alls
-  path_new: 2010-08-gig-september-3-w-nephrok-alls
+  path_new: 2010-08_gig-september-3-w-nephrok-allstars
   title: "Gig: Nephrok! Allstars & Big Ben Hillman @ Johnny D's"
   subtitle: September 3 in Somerville, MA
   publish: true
@@ -992,7 +993,7 @@
 2008-05-29-marthas-vineyard: 
   url: http://benalman.com/news/2008/05/marthas-vineyard/ (ignored)
   path_orig: news/2008/05/marthas-vineyard
-  path_new: 2008-05-marthas-vineyard
+  path_new: 2008-05_marthas-vineyard
   title: Martha's Vineyard
   subtitle: 
   publish: true
@@ -1004,7 +1005,7 @@
 2008-05-23-the-new-deal: 
   url: http://benalman.com/news/2008/05/the-new-deal/ (ignored)
   path_orig: news/2008/05/the-new-deal
-  path_new: 2008-05-the-new-deal
+  path_new: 2008-05_the-new-deal
   title: The New Deal
   subtitle: 
   publish: true
@@ -1015,7 +1016,7 @@
 2008-04-21-greyboy-allstars: 
   url: http://benalman.com/news/2008/04/greyboy-allstars/ (ignored)
   path_orig: news/2008/04/greyboy-allstars
-  path_new: 2008-04-greyboy-allstars
+  path_new: 2008-04_greyboy-allstars
   title: Greyboy Allstars
   subtitle: 
   publish: true
@@ -1027,7 +1028,7 @@
 2007-11-17-absolutely-wonderful: 
   url: http://benalman.com/news/2007/11/absolutely-wonderful/ (ignored)
   path_orig: news/2007/11/absolutely-wonderful
-  path_new: 2007-11-absolutely-wonderful
+  path_new: 2007-11_absolutely-wonderful
   title: Absolutely Wonderful..
   subtitle: 
   publish: true
@@ -1038,7 +1039,7 @@
 2010-09-23-gig-september-24-w-trick-bag: 
   url: http://benalman.com/news/2010/09/gig-september-24-w-trick-bag/ (ignored)
   path_orig: news/2010/09/gig-september-24-w-trick-bag
-  path_new: 2010-09-gig-september-24-w-trick-bag
+  path_new: 2010-09_gig-september-24-w-trick-bag
   title: "Gig: Trick Bag @ The Tap"
   subtitle: September 24 in Haverhill, MA
   publish: true
@@ -1048,7 +1049,7 @@
 2008-05-22-drumming-fun-with-robyn: 
   url: http://benalman.com/news/2008/05/drumming-fun-with-robyn/ (ignored)
   path_orig: news/2008/05/drumming-fun-with-robyn
-  path_new: 2008-05-drumming-fun-with-robyn
+  path_new: 2008-05_drumming-fun-with-robyn
   title: Drumming Fun with Robyn
   subtitle: 
   publish: true
@@ -1060,7 +1061,7 @@
 2010-09-07-gig-september-11-w-nephrok-all: 
   url: http://benalman.com/news/2010/09/gig-september-11-w-nephrok-all/ (ignored)
   path_orig: news/2010/09/gig-september-11-w-nephrok-all
-  path_new: 2010-09-gig-september-11-w-nephrok-all
+  path_new: 2010-09_gig-september-11-w-nephrok-allstars
   title: "Gig: Nephrok! Allstars @ Atwoods"
   subtitle: September 11 in Cambridge, MA
   publish: true
@@ -1070,7 +1071,7 @@
 2010-04-12-gig-april-23-w-big-ben-hillman-lizard-lounge-in-cambridge: 
   url: http://benalman.com/news/2010/04/gig-april-23-w-big-ben-hillman-lizard-lounge-in-cambridge/ (ignored)
   path_orig: news/2010/04/gig-april-23-w-big-ben-hillman-lizard-lounge-in-cambridge
-  path_new: 2010-04-gig-april-23-w-big-ben-hillman-lizard-lounge-in-cambridge
+  path_new: 2010-04_gig-april-23-w-big-ben-hillman-lizard-lounge-in-cambridge
   title: "Gig: Big Ben Hillman @ Lizard Lounge"
   subtitle: April 23 in Cambridge, MA
   publish: true
@@ -1080,7 +1081,7 @@
 2009-11-19-gig-nov-27-big-ben-hillman-big-easy: 
   url: http://benalman.com/news/2009/11/gig-nov-27-big-ben-hillman-big-easy/ (ignored)
   path_orig: news/2009/11/gig-nov-27-big-ben-hillman-big-easy
-  path_new: 2009-11-gig-nov-27-big-ben-hillman-big-easy
+  path_new: 2009-11_gig-nov-27-big-ben-hillman-big-easy
   title: "Gig: Big Ben Hillman @ Big Easy"
   subtitle: November 27 in Portland, ME
   publish: true
@@ -1090,7 +1091,7 @@
 2009-06-11-smv-at-hob: 
   url: http://benalman.com/news/2009/06/smv-at-hob/ (ignored)
   path_orig: news/2009/06/smv-at-hob
-  path_new: 2009-06-smv-at-hob
+  path_new: 2009-06_smv-at-hob
   title: SMV @ HOB
   subtitle: 
   publish: true
@@ -1101,7 +1102,7 @@
 2010-10-27-gig-october-30-w-nephrok-allstars: 
   url: http://benalman.com/news/2010/10/gig-october-30-w-nephrok-allstars/ (ignored)
   path_orig: news/2010/10/gig-october-30-w-nephrok-allstars
-  path_new: 2010-10-gig-october-30-w-nephrok-allstars
+  path_new: 2010-10_gig-october-30-w-nephrok-allstars
   title: "Gig: Nephrok! Allstars @ Atwoods"
   subtitle: October 30 in Cambridge, MA
   publish: true
@@ -1111,7 +1112,7 @@
 2007-08-13-newport-jazz-festival: 
   url: http://benalman.com/news/2007/08/newport-jazz-festival/ (ignored)
   path_orig: news/2007/08/newport-jazz-festival
-  path_new: 2007-08-newport-jazz-festival
+  path_new: 2007-08_newport-jazz-festival
   title: Newport Jazz Festival
   subtitle: 
   publish: true
@@ -1122,7 +1123,7 @@
 2007-08-25-pollotronik-allstars: 
   url: http://benalman.com/news/2007/08/pollotronik-allstars/ (ignored)
   path_orig: news/2007/08/pollotronik-allstars
-  path_new: 2007-08-pollotronik-allstars
+  path_new: 2007-08_pollotronik-allstars
   title: Pollotronik All*Stars
   subtitle: 
   publish: true
@@ -1133,7 +1134,7 @@
 2009-11-28-give-the-people-what-they-want: 
   url: http://benalman.com/news/2009/11/give-the-people-what-they-want/ (ignored)
   path_orig: news/2009/11/give-the-people-what-they-want
-  path_new: 2009-11-give-the-people-what-they-want
+  path_new: 2009-11_give-the-people-what-they-want
   title: Give the people what they want!
   subtitle: 
   publish: true
@@ -1143,7 +1144,7 @@
 2010-04-22-jsconf-x: 
   url: http://benalman.com/news/2010/04/jsconf-x/ (ignored)
   path_orig: news/2010/04/jsconf-x
-  path_new: 2010-04-jsconf-x
+  path_new: 2010-04_jsconf-x
   title: JSConf X
   subtitle: 
   publish: true
@@ -1153,9 +1154,9 @@
 2010-11-12-schrecklichwissen-terrible-kno: 
   url: http://benalman.com/news/2010/11/schrecklichwissen-terrible-kno/ (ignored)
   path_orig: news/2010/11/schrecklichwissen-terrible-kno
-  path_new: schrecklichwissen-terrible-knowledge
+  path_new: terrible-knowledge
   title: Schrecklichwissen
-  subtitle: Terrible Knowledge.
+  subtitle: Terrible Knowledge!
   publish: true
   categories: 
   - News
@@ -1163,7 +1164,7 @@
 2009-12-18-john-resig-javascripts-chuck-norris: 
   url: http://benalman.com/news/2009/12/john-resig-javascripts-chuck-norris/ (ignored)
   path_orig: news/2009/12/john-resig-javascripts-chuck-norris
-  path_new: john-resig-javascripts-chuck-norris
+  path_new: john-resig
   title: John Resig
   subtitle: JavaScript's Chuck Norris.
   publish: true
@@ -1173,7 +1174,7 @@
 2008-06-09-wii-mii-dance-recital: 
   url: http://benalman.com/news/2008/06/wii-mii-dance-recital/ (ignored)
   path_orig: news/2008/06/wii-mii-dance-recital
-  path_new: 2008-06-wii-mii-dance-recital
+  path_new: 2008-06_wii-mii-dance-recital
   title: Wii, Mii, Dance Recital
   subtitle: 
   publish: true
@@ -1185,7 +1186,7 @@
 2008-07-21-iphone-madness: 
   url: http://benalman.com/news/2008/07/iphone-madness/ (ignored)
   path_orig: news/2008/07/iphone-madness
-  path_new: 2008-07-iphone-madness
+  path_new: 2008-07_iphone-madness
   title: iPhone Madness
   subtitle: 
   publish: true
@@ -1197,7 +1198,7 @@
 2008-08-21-keeping-busy: 
   url: http://benalman.com/news/2008/08/keeping-busy/ (ignored)
   path_orig: news/2008/08/keeping-busy
-  path_new: 2008-08-keeping-busy
+  path_new: 2008-08_keeping-busy
   title: Keeping Busy
   subtitle: 
   publish: true
@@ -1212,7 +1213,7 @@
   path_orig: news/2010/03/jquery-special-events
   path_new: jquery-special-events
   title: jQuery special events
-  subtitle: 
+  subtitle: The complete API reference, with examples.
   toc: false
   publish: true
   categories: 
@@ -1248,7 +1249,7 @@
 2010-04-24-cooking-bbq-the-original-recipe: 
   url: http://benalman.com/news/2010/04/cooking-bbq-the-original-recipe/ (ignored)
   path_orig: news/2010/04/cooking-bbq-the-original-recipe
-  path_new: cooking-bbq-the-original-recipe
+  path_new: cooking-bbq
   title: "Cooking BBQ: the original recipe"
   subtitle: The true story behind JavaScript's tastiest rub.
   toc: 1
@@ -1263,7 +1264,7 @@
 2009-12-20-jquery-14-param-demystified: 
   url: http://benalman.com/news/2009/12/jquery-14-param-demystified/ (ignored)
   path_orig: news/2009/12/jquery-14-param-demystified
-  path_new: jquery-14-param-demystified
+  path_new: jquery-14-param
   title: jQuery 1.4 $.param demystified
   subtitle: The "state of the query string" in jQuery.
   publish: true
@@ -1285,9 +1286,9 @@
 2010-11-15-immediately-invoked-function-expression: 
   url: http://benalman.com/news/2010/11/immediately-invoked-function-expression/ (ignored)
   path_orig: news/2010/11/immediately-invoked-function-expression
-  path_new: immediately-invoked-function-expression
-  title: Immediately-Invoked Function Expression (IIFE)
-  subtitle: 
+  path_new: iife
+  title: IIFE
+  subtitle: Immediately-Invoked Function Expression.
   publish: true
   toc: true
   categories: 
@@ -1304,7 +1305,7 @@
 2010-02-28-on-licensing-my-code: 
   url: http://benalman.com/news/2010/02/on-licensing-my-code/ (ignored)
   path_orig: news/2010/02/on-licensing-my-code
-  path_new: on-licensing-my-code
+  path_new: licensing
   title: On licensing my code
   subtitle: Open sourcing something? Well, me too...
   toc: true
@@ -1315,7 +1316,7 @@
 2010-01-07-jquery-enlightenment-by-cody-lindley: 
   url: http://benalman.com/news/2010/01/jquery-enlightenment-by-cody-lindley/ (ignored)
   path_orig: news/2010/01/jquery-enlightenment-by-cody-lindley
-  path_new: 2010-01-jquery-enlightenment-by-cody-lindley
+  path_new: 2010-01_jquery-enlightenment-by-cody-lindley
   title: jQuery Enlightenment by Cody Lindley
   subtitle: 
   publish: true
@@ -1325,7 +1326,7 @@
 2010-03-03-theres-no-such-thing-as-a-json: 
   url: http://benalman.com/news/2010/03/theres-no-such-thing-as-a-json/ (ignored)
   path_orig: news/2010/03/theres-no-such-thing-as-a-json
-  path_new: theres-no-such-thing-as-a-json-object
+  path_new: json-object
   title: There's no such thing as a "JSON Object"
   subtitle: Well, except when there is.
   toc: true
@@ -1339,7 +1340,7 @@
 2010-08-04-organ1k-js1k-contest-entry: 
   url: http://benalman.com/news/2010/08/organ1k-js1k-contest-entry/ (ignored)
   path_orig: news/2010/08/organ1k-js1k-contest-entry
-  path_new: organ1k-a-js1k-contest-entry
+  path_new: organ1k
   title: Organ1k
   subtitle: A JS1k contest entry
   publish: true
@@ -1349,7 +1350,7 @@
 2010-03-15-jquery-14-reference-guide: 
   url: http://benalman.com/news/2010/03/jquery-14-reference-guide/ (ignored)
   path_orig: news/2010/03/jquery-14-reference-guide
-  path_new: 2010-03-jquery-14-reference-guide
+  path_new: 2010-03_jquery-14-reference-guide
   title: jQuery 1.4 Reference Guide by Karl Swedberg and Jonathan Chaffer
   subtitle: 
   publish: true
@@ -1359,7 +1360,7 @@
 2009-09-13-jquery-conf-2009: 
   url: http://benalman.com/news/2009/09/jquery-conf-2009/ (ignored)
   path_orig: news/2009/09/jquery-conf-2009
-  path_new: 2009-09-jquery-conf-2009
+  path_new: 2009-09_jquery-conf-2009
   title: jQuery Conference '09
   subtitle: 
   publish: true
@@ -1370,9 +1371,9 @@
 2009-10-07-gyazo-on-your-own-server: 
   url: http://benalman.com/news/2009/10/gyazo-on-your-own-server/ (ignored)
   path_orig: news/2009/10/gyazo-on-your-own-server
-  path_new: gyazo-on-your-own-server
+  path_new: gyazo
   title: Gyazo.. on your own server
-  subtitle: 
+  subtitle: A few simple changes... et voilà!
   publish: true
   categories: 
   - News
@@ -1384,7 +1385,7 @@
 2009-07-15-the-mysterious-firefox-settime: 
   url: http://benalman.com/news/2009/07/the-mysterious-firefox-settime/ (ignored)
   path_orig: news/2009/07/the-mysterious-firefox-settime
-  path_new: the-mysterious-firefox-settimeout-lateness-argument
+  path_new: ff-lateness
   title: "The Mysterious Firefox setTimeout \"Lateness\" argument\xE2\x84\xA2"
   subtitle: Who doesn't like surprises? You? Tough.
   publish: true
@@ -1398,7 +1399,7 @@
 2009-09-24-chrome-browser-history-buggine: 
   url: http://benalman.com/news/2009/09/chrome-browser-history-buggine/ (ignored)
   path_orig: news/2009/09/chrome-browser-history-buggine
-  path_new: 2009-09-chrome-browser-history-bugginess
+  path_new: 2009-09_chrome-browser-history-bugginess
   title: Chrome, browser history, bugginess
   subtitle: 
   publish: true
@@ -1409,7 +1410,7 @@
 2010-09-16-partial-application-in-javascript: 
   url: http://benalman.com/news/2010/09/partial-application-in-javascript/ (ignored)
   path_orig: news/2010/09/partial-application-in-javascript
-  path_new: partial-application-in-javascript
+  path_new: js-partial-application
   title: Partial application in JavaScript?
   subtitle: The difference between Curry and Vindaloo.
   publish: true
@@ -1422,7 +1423,7 @@
 2009-09-30-on-contributing-to-jquery-and: 
   url: http://benalman.com/news/2009/09/on-contributing-to-jquery-and/ (ignored)
   path_orig: news/2009/09/on-contributing-to-jquery-and
-  path_new: 2009-09-on-contributing-to-jquery-and
+  path_new: 2009-09_on-contributing-to-jquery-and-new-plugins-too
   title: On contributing to jQuery, and new plugins too...
   subtitle: 
   publish: true
@@ -1432,7 +1433,7 @@
 2009-06-11-change-bbedit-invisibles-color: 
   url: http://benalman.com/news/2009/06/change-bbedit-invisibles-color/ (ignored)
   path_orig: news/2009/06/change-bbedit-invisibles-color
-  path_new: change-bbedit-invisibles-color
+  path_new: bbedit-invisibles
   title: Change BBEdit Invisibles colors
   subtitle: A minor gripe, fixed via blatant hackery.
   publish: true
@@ -1446,7 +1447,7 @@
 2009-11-09-is-this-a-firefox-remote-xhr-bug: 
   url: http://benalman.com/news/2009/11/is-this-a-firefox-remote-xhr-bug/ (ignored)
   path_orig: news/2009/11/is-this-a-firefox-remote-xhr-bug
-  path_new: 2009-11-is-this-a-firefox-remote-xhr-bug
+  path_new: 2009-11_is-this-a-firefox-remote-xhr-bug
   title: Is this a Firefox remote XMLHttpRequest bug?
   subtitle: 
   publish: true
@@ -1457,7 +1458,7 @@
 2009-07-25-summer-2009: 
   url: http://benalman.com/news/2009/07/summer-2009/ (ignored)
   path_orig: news/2009/07/summer-2009
-  path_new: 2009-07-summer-2009
+  path_new: 2009-07_summer-2009
   title: Summer 2009
   subtitle: 
   publish: true
@@ -1469,7 +1470,7 @@
 2009-05-03-i-have-no-excuse: 
   url: http://benalman.com/news/2009/05/i-have-no-excuse/ (ignored)
   path_orig: news/2009/05/i-have-no-excuse
-  path_new: 2009-05-i-have-no-excuse
+  path_new: 2009-05_i-have-no-excuse
   title: I Have No Excuse
   subtitle: 
   publish: true
@@ -1482,7 +1483,7 @@
 2008-02-16-finally: 
   url: http://benalman.com/news/2008/02/finally/ (ignored)
   path_orig: news/2008/02/finally
-  path_new: 2008-02-finally
+  path_new: 2008-02_finally
   title: Finally!
   subtitle: 
   publish: true
@@ -1493,7 +1494,7 @@
 2009-11-04-css-with-http-requests-less-is-more: 
   url: http://benalman.com/news/2009/11/css-with-http-requests-less-is-more/ (ignored)
   path_orig: news/2009/11/css-with-http-requests-less-is-more
-  path_new: 2009-11-css-with-http-requests-less-is-more
+  path_new: 2009-11_css-with-http-requests-less-is-more
   title: "CSS: With HTTP requests, less is more!"
   subtitle: 
   publish: true
@@ -1503,7 +1504,7 @@
 2009-12-02-jquery-bbq-in-drupal-7: 
   url: http://benalman.com/news/2009/12/jquery-bbq-in-drupal-7/ (ignored)
   path_orig: news/2009/12/jquery-bbq-in-drupal-7
-  path_new: 2009-12-jquery-bbq-in-drupal-7
+  path_new: 2009-12_jquery-bbq-in-drupal-7
   title: jQuery BBQ in Drupal 7
   subtitle: 
   publish: true
@@ -1513,7 +1514,7 @@
 2010-01-11-the-official-jquery-podcast-ep: 
   url: http://benalman.com/news/2010/01/the-official-jquery-podcast-ep/ (ignored)
   path_orig: news/2010/01/the-official-jquery-podcast-ep
-  path_new: 2010-01-the-official-jquery-podcast-ep
+  path_new: 2010-01_the-official-jquery-podcast-episode-6
   title: The Official jQuery Podcast, Episode 6
   subtitle: 
   publish: true
@@ -1523,7 +1524,7 @@
 2009-06-16-simplified-is-coming-along: 
   url: http://benalman.com/news/2009/06/simplified-is-coming-along/ (ignored)
   path_orig: news/2009/06/simplified-is-coming-along
-  path_new: 2009-06-simplified-is-coming-along
+  path_new: 2009-06_simplified-is-coming-along
   title: Simplified is coming along..
   subtitle: 
   publish: true
@@ -1534,7 +1535,7 @@
 2010-08-02-multi-firefox-launcher-for-os: 
   url: http://benalman.com/news/2010/08/multi-firefox-launcher-for-os/ (ignored)
   path_orig: news/2010/08/multi-firefox-launcher-for-os
-  path_new: 2010-08-multi-firefox-launcher-for-os
+  path_new: 2010-08_multi-firefox-launcher-for-os-x
   title: Multi-Firefox Launcher for OS X
   subtitle: 
   publish: true
@@ -1544,7 +1545,7 @@
 2009-12-01-jquery-untils-v10: 
   url: http://benalman.com/news/2009/12/jquery-untils-v10/ (ignored)
   path_orig: news/2009/12/jquery-untils-v10
-  path_new: 2009-12-jquery-untils-v10
+  path_new: 2009-12_jquery-untils-v10
   title: jQuery Untils v1.0
   subtitle: 
   publish: true
@@ -1555,7 +1556,7 @@
 2009-10-05-jquery-bbq-plugin-v10: 
   url: http://benalman.com/news/2009/10/jquery-bbq-plugin-v10/ (ignored)
   path_orig: news/2009/10/jquery-bbq-plugin-v10
-  path_new: 2009-10-jquery-bbq-plugin-v10
+  path_new: 2009-10_jquery-bbq-plugin-v10
   title: jQuery BBQ plugin v1.0
   subtitle: 
   publish: true
@@ -1566,7 +1567,7 @@
 2009-10-12-jquery-bbq-plugin-v102-javascript-debug-github: 
   url: http://benalman.com/news/2009/10/jquery-bbq-plugin-v102-javascript-debug-github/ (ignored)
   path_orig: news/2009/10/jquery-bbq-plugin-v102-javascript-debug-github
-  path_new: 2009-10-jquery-bbq-plugin-v102-javascript-debug-github
+  path_new: 2009-10_jquery-bbq-plugin-v102-javascript-debug-github
   title: jQuery BBQ plugin v1.0.2, JavaScript Debug on GitHub
   subtitle: 
   publish: true
@@ -1577,7 +1578,7 @@
 2009-08-25-wrapping-up-simplified: 
   url: http://benalman.com/news/2009/08/wrapping-up-simplified/ (ignored)
   path_orig: news/2009/08/wrapping-up-simplified
-  path_new: 2009-08-wrapping-up-simplified
+  path_new: 2009-08_wrapping-up-simplified
   title: Wrapping up Simplified
   subtitle: 
   publish: true
@@ -1588,7 +1589,7 @@
 2009-06-01-out-with-the-old-in-with-the-n: 
   url: http://benalman.com/news/2009/06/out-with-the-old-in-with-the-n/ (ignored)
   path_orig: news/2009/06/out-with-the-old-in-with-the-n
-  path_new: 2009-06-out-with-the-old-in-with-the-n
+  path_new: 2009-06_out-with-the-old-in-with-the-new
   title: Out with the old, in with the new!
   subtitle: 
   publish: true
@@ -1599,7 +1600,7 @@
 2009-12-04-webkit-bug-hash-history-iframe: 
   url: http://benalman.com/news/2009/12/webkit-bug-hash-history-iframe/ (ignored)
   path_orig: news/2009/12/webkit-bug-hash-history-iframe
-  path_new: 2009-12-webkit-bug-hash-history-iframe
+  path_new: 2009-12_webkit-bug-hash-history-iframe
   title: "WebKit bug: hash history + Iframe = fail"
   subtitle: 
   publish: true
@@ -1610,7 +1611,7 @@
 2010-11-08-2010-jquery-summit-win-tickets: 
   url: http://benalman.com/news/2010/11/2010-jquery-summit-win-tickets/ (ignored)
   path_orig: news/2010/11/2010-jquery-summit-win-tickets
-  path_new: 2010-11-2010-jquery-summit-win-tickets
+  path_new: 2010-11_2010-jquery-summit-win-tickets
   title: "2010 jQuery Summit: Win Tickets!"
   subtitle: 
   publish: true
@@ -1620,7 +1621,7 @@
 2009-07-15-jquery-dotimeout-plugin-v04: 
   url: http://benalman.com/news/2009/07/jquery-dotimeout-plugin-v04/ (ignored)
   path_orig: news/2009/07/jquery-dotimeout-plugin-v04
-  path_new: 2009-07-jquery-dotimeout-plugin-v04
+  path_new: 2009-07_jquery-dotimeout-plugin-v04
   title: jQuery doTimeout plugin v0.4
   subtitle: 
   publish: true
@@ -1631,7 +1632,7 @@
 2010-11-10-2010-jquery-summit-ticket-winn: 
   url: http://benalman.com/news/2010/11/2010-jquery-summit-ticket-winn/ (ignored)
   path_orig: news/2010/11/2010-jquery-summit-ticket-winn
-  path_new: 2010-11-2010-jquery-summit-ticket-winn
+  path_new: 2010-11_2010-jquery-summit-ticket-winners
   title: "2010 jQuery Summit: Ticket Winners!"
   subtitle: 
   publish: true
@@ -1639,11 +1640,11 @@
   - News
   - Code
   incl_names: 
-  - file1.js
+  - super-awesome-lottery-script.js
 2008-03-26-benalman-com-live: 
   url: http://benalman.com/news/2008/03/benalman-com-live/ (ignored)
   path_orig: news/2008/03/benalman-com-live
-  path_new: 2008-03-benalman-com-live
+  path_new: 2008-03_benalman-com-live
   title: Sweet, benalman.com is Live
   subtitle: 
   publish: true
@@ -1655,7 +1656,7 @@
 2010-12-29-the-catch-with-trycatch: 
   url: http://benalman.com/news/2010/12/the-catch-with-trycatch/ (ignored)
   path_orig: news/2010/12/the-catch-with-trycatch
-  path_new: the-catch-with-trycatch
+  path_new: try-catch
   title: The "catch" with try...catch
   subtitle: A few (more) interesting quirks in IE6-8.
   publish: true
@@ -1666,7 +1667,7 @@
 2010-01-27-jonathan-neal-ben-alman-dot-com: 
   url: http://benalman.com/news/2010/01/jonathan-neal-ben-alman-dot-com/ (ignored)
   path_orig: news/2010/01/jonathan-neal-ben-alman-dot-com
-  path_new: ben-alman-dot-com
+  path_new: benalman.com
   title: Ben Alman Dot Com
   subtitle: My brand-new promo, by Jonathan Neal
   publish: true
@@ -1679,7 +1680,7 @@
 2009-07-01-run-jquery-code-bookmarklet-v0: 
   url: http://benalman.com/news/2009/07/run-jquery-code-bookmarklet-v0/ (ignored)
   path_orig: news/2009/07/run-jquery-code-bookmarklet-v0
-  path_new: 2009-07-run-jquery-code-bookmarklet-v0
+  path_new: 2009-07_run-jquery-code-bookmarklet-v0
   title: Run jQuery Code Bookmarklet v0.4
   subtitle: 
   publish: true
@@ -1690,7 +1691,7 @@
 2011-01-10-jquery-bbq-now-in-over-20k-sit: 
   url: http://benalman.com/news/2011/01/jquery-bbq-now-in-over-20k-sit/ (ignored)
   path_orig: news/2011/01/jquery-bbq-now-in-over-20k-sit
-  path_new: 2011-01-jquery-bbq-now-in-over-20k-sit
+  path_new: 2011-01_jquery-bbq-now-in-over-20k-sites
   title: jQuery BBQ now in over 20k sites!
   subtitle: 
   publish: true
@@ -1700,7 +1701,7 @@
 2010-05-28-jquery-boston-meetup-plugin-development: 
   url: http://benalman.com/news/2010/05/jquery-boston-meetup-plugin-development/ (ignored)
   path_orig: news/2010/05/jquery-boston-meetup-plugin-development
-  path_new: 2010-05-jquery-boston-meetup-plugin-development
+  path_new: 2010-05_jquery-boston-meetup-plugin-development
   title: "jQuery Boston Meetup: Plugin Development"
   subtitle: 
   publish: true
@@ -1710,7 +1711,7 @@
 2009-10-08-jquery-urlinternal-plugin-v10: 
   url: http://benalman.com/news/2009/10/jquery-urlinternal-plugin-v10/ (ignored)
   path_orig: news/2009/10/jquery-urlinternal-plugin-v10
-  path_new: 2009-10-jquery-urlinternal-plugin-v10
+  path_new: 2009-10_jquery-urlinternal-plugin-v10
   title: jQuery urlInternal plugin v1.0
   subtitle: 
   publish: true
@@ -1721,7 +1722,7 @@
 2009-11-12-bbedit-invisibles-colors-updat: 
   url: http://benalman.com/news/2009/11/bbedit-invisibles-colors-updat/ (ignored)
   path_orig: news/2009/11/bbedit-invisibles-colors-updat
-  path_new: 2009-11-bbedit-invisibles-colors-updat
+  path_new: 2009-11_bbedit-invisibles-colors-update
   title: "BBEdit Invisibles colors: Update!"
   subtitle: 
   publish: true
@@ -1732,7 +1733,7 @@
 2009-08-25-jquery-postmessage-plugin-v04: 
   url: http://benalman.com/news/2009/08/jquery-postmessage-plugin-v04/ (ignored)
   path_orig: news/2009/08/jquery-postmessage-plugin-v04
-  path_new: 2009-08-jquery-postmessage-plugin-v04
+  path_new: 2009-08_jquery-postmessage-plugin-v04
   title: jQuery postMessage plugin v0.4
   subtitle: 
   publish: true
@@ -1743,7 +1744,7 @@
 2009-06-02-jquery-iff-plugin-a-chainable: 
   url: http://benalman.com/news/2009/06/jquery-iff-plugin-a-chainable/ (ignored)
   path_orig: news/2009/06/jquery-iff-plugin-a-chainable
-  path_new: 2009-06-jquery-iff-plugin-a-chainable
+  path_new: 2009-06_jquery-iff-plugin-a-chainable
   title: jQuery iff plugin v0.1
   subtitle: 
   publish: true
@@ -1754,7 +1755,7 @@
 2009-09-08-modernizr-10-released: 
   url: http://benalman.com/news/2009/09/modernizr-10-released/ (ignored)
   path_orig: news/2009/09/modernizr-10-released
-  path_new: 2009-09-modernizr-10-released
+  path_new: 2009-09_modernizr-10-released
   title: Modernizr 1.0 Released
   subtitle: 
   publish: true
@@ -1765,7 +1766,7 @@
 2009-06-09-javascript-debug-v03: 
   url: http://benalman.com/news/2009/06/javascript-debug-v03/ (ignored)
   path_orig: news/2009/06/javascript-debug-v03
-  path_new: 2009-06-javascript-debug-v03
+  path_new: 2009-06_javascript-debug-v03
   title: JavaScript debug v0.3
   subtitle: 
   publish: true
@@ -1776,7 +1777,7 @@
 2009-06-25-jquery-dotimeout-plugin-v03: 
   url: http://benalman.com/news/2009/06/jquery-dotimeout-plugin-v03/ (ignored)
   path_orig: news/2009/06/jquery-dotimeout-plugin-v03
-  path_new: 2009-06-jquery-dotimeout-plugin-v03
+  path_new: 2009-06_jquery-dotimeout-plugin-v03
   title: jQuery doTimeout plugin v0.3
   subtitle: 
   publish: true
@@ -1787,7 +1788,7 @@
 2009-07-20-jquery-url-utils-plugin-v10: 
   url: http://benalman.com/news/2009/07/jquery-url-utils-plugin-v10/ (ignored)
   path_orig: news/2009/07/jquery-url-utils-plugin-v10
-  path_new: 2009-07-jquery-url-utils-plugin-v10
+  path_new: 2009-07_jquery-url-utils-plugin-v10
   title: jQuery URL Utils plugin v1.0
   subtitle: 
   publish: true
@@ -1798,7 +1799,7 @@
 2007-09-09-the-portfolio-it-lives: 
   url: http://benalman.com/news/2007/09/the-portfolio-it-lives/ (ignored)
   path_orig: news/2007/09/the-portfolio-it-lives
-  path_new: 2007-09-the-portfolio-it-lives
+  path_new: 2007-09_the-portfolio-it-lives
   title: The Portfolio.. it Lives!
   subtitle: 
   publish: true
@@ -1809,7 +1810,7 @@
 2009-09-10-jquery-url-utils-plugin-v111: 
   url: http://benalman.com/news/2009/09/jquery-url-utils-plugin-v111/ (ignored)
   path_orig: news/2009/09/jquery-url-utils-plugin-v111
-  path_new: 2009-09-jquery-url-utils-plugin-v111
+  path_new: 2009-09_jquery-url-utils-plugin-v111
   title: jQuery URL Utils plugin v1.11
   subtitle: 
   publish: true
@@ -1820,7 +1821,7 @@
 2009-08-13-javascript-debug-firebug-bookm: 
   url: http://benalman.com/news/2009/08/javascript-debug-firebug-bookm/ (ignored)
   path_orig: news/2009/08/javascript-debug-firebug-bookm
-  path_new: 2009-08-javascript-debug-firebug-bookm
+  path_new: 2009-08_javascript-debug-firebug-bookmarklet-updated
   title: JavaScript debug Firebug bookmarklet updated
   subtitle: 
   publish: true
@@ -1831,9 +1832,9 @@
 2009-11-28-big-ben-hillman-the-big-easy: 
   url: http://benalman.com/music/big-ben-hillman-the-big-easy/ (ignored)
   path_orig: music/big-ben-hillman-the-big-easy
-  path_new: big-ben-hillman-the-big-easy
+  path_new: bbh-big-easy
   title: Big Ben Hillman @ The Big Easy
-  subtitle: 
+  subtitle: A night of funky music!
   publish: true
   categories: 
   - Music
