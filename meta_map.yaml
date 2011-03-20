@@ -62,7 +62,7 @@
   path_orig: projects/jquery-outside-events-plugin
   path_new: jquery-outside-events
   title: jQuery outside events
-  subtitle: Why trigger an event on something, when you can trigger it on everything else?
+  subtitle: Events that trigger on... everything else.
   publish: true
   categories: 
   - Projects
@@ -270,7 +270,7 @@
   path_orig: projects/run-jquery-code-bookmarklet
   path_new: bookmarklet-generator
   title: jQuery Bookmarklet Generator
-  subtitle: An easy way to run your jQueries in a bookmarklet.
+  subtitle: Easily run jQuery code in a bookmarklet.
   publish: true
   categories: 
   - Projects
@@ -316,7 +316,7 @@
   path_orig: projects/bookmarklets
   path_new: bookmarklets
   title: Bookmarklets
-  subtitle: Browser tweaks that are always just one click away.
+  subtitle: Bookmarkable browser tweaks.
   publish: true
   categories: 
   - Projects
@@ -341,7 +341,7 @@
   path_orig: projects/javascript-emotify
   path_new: js-emotify
   title: JavaScript Emotify
-  subtitle: Making the web a more expressive place, one image at a time...
+  subtitle: Making the web just a little more smiley.
   publish: true
   categories: 
   - Projects
@@ -351,7 +351,7 @@
   path_orig: projects/javascript-linkify
   path_new: js-linkify
   title: JavaScript Linkify
-  subtitle: Process links in text
+  subtitle: HTML-ify links in plain text.
   publish: true
   categories: 
   - Projects

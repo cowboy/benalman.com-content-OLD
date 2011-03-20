@@ -294,6 +294,10 @@ $entries.each do |path, e|
     e.content.sub!(%r{{{ 125x125winner.png }}}, '{{ 125x125winner.png | image(style: "float:right;") }}')
     e.content.sub!(%r{(<a.*?\n\n)({{ toc }}\n\n## Project details\n\n)}, '\2\1')
     e.content.sub!(/image\(sample\)/, 'image(alt: "sample", class: "noborder")')
+  when 'jquery-throttle-debounce'
+    e.content.gsub!(%r{{{ ([^.]+.png) \| image\(([^)]+)\) }}}, '{{ \1 | image(alt: "\2", class: "noborder") }}')
+    e.content.gsub!(%r{{{ ([^.]+.png) }}}, '{{ \1 | image(class: "noborder") }}')
+    e.content.sub!(%r{\n<style type="text/css">.*?</style>\n}m, '')
   end
 
   # Ensure original path is valid.
