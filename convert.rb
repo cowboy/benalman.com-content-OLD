@@ -318,7 +318,7 @@ $entries.each do |path, e|
   m, mm = e.meta.to_hash, $meta_map[path]
   next if mm.nil? || !mm['publish']
 
-  %w{title subtitle categories}.each do |prop|
+  %w{title subtitle categories github}.each do |prop|
     m[prop.to_sym] = mm[prop] if mm[prop]
   end
 
@@ -330,7 +330,7 @@ $entries.each do |path, e|
     actual += 1
     #puts '======'
     #puts path
-    metas = %w{title subtitle categories tags date}.map do |key|
+    metas = %w{title subtitle categories tags github date}.map do |key|
       value = m[key.to_sym]
       if value.class == Array
         "#{key}: [#{value.join(', ')}]"
@@ -340,11 +340,11 @@ $entries.each do |path, e|
         else
           "#{key}: \"#{value.gsub('"', '\\"')}\""
         end
-      else
+      elsif value
         "#{key}: #{value}"
       end
     end
-    index = metas.join("\n") + "\n--- |\n" + e.content
+    index = metas.compact.join("\n") + "\n--- |\n" + e.content
     path = "#{$files_out}#{e[:path_new]}"
     FileUtils.mkdir_p(path)
     File.open("#{path}/index.md", 'w') {|f| f.write(index)}

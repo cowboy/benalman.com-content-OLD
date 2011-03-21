@@ -1,5 +1,6 @@
 --- 
 2010-02-12-jquery-misc-plugins: 
+  github: cowboy/jquery-misc
   url: http://benalman.com/projects/jquery-misc-plugins/ (ignored)
   toc: false
   details: false
@@ -28,6 +29,7 @@
   - serializeobject.js
   - viewportoffset.js
 2009-10-03-jquery-bbq-plugin: 
+  github: cowboy/jquery-bbq
   url: http://benalman.com/projects/jquery-bbq-plugin/ (ignored)
   path_orig: projects/jquery-bbq-plugin
   path_new: jquery-bbq
@@ -45,6 +47,7 @@
   - url-building-attr.js
   - hashchange.js
 2010-03-06-jquery-throttle-debounce-plugin: 
+  github: cowboy/jquery-throttle-debounce
   url: http://benalman.com/projects/jquery-throttle-debounce-plugin/ (ignored)
   path_orig: projects/jquery-throttle-debounce-plugin
   path_new: jquery-throttle-debounce
@@ -58,6 +61,7 @@
   - throttle.js
   - debounce.js
 2010-02-27-jquery-outside-events-plugin: 
+  github: cowboy/jquery-outside-events
   url: http://benalman.com/projects/jquery-outside-events-plugin/ (ignored)
   path_orig: projects/jquery-outside-events-plugin
   path_new: jquery-outside-events
@@ -70,6 +74,7 @@
   incl_names: 
   - usage.js
 2010-07-22-jquery-hashchange-plugin: 
+  github: cowboy/jquery-hashchange
   url: http://benalman.com/projects/jquery-hashchange-plugin/ (ignored)
   path_orig: projects/jquery-hashchange-plugin
   path_new: jquery-hashchange
@@ -93,6 +98,7 @@
   - Projects
   - jQuery
 2010-01-05-jquery-message-queuing-plugin: 
+  github: cowboy/jquery-message-queuing
   url: http://benalman.com/projects/jquery-message-queuing-plugin/ (ignored)
   path_orig: projects/jquery-message-queuing-plugin
   path_new: jquery-message-queuing
@@ -107,6 +113,7 @@
   - tracking.js
   - serial-async.js
 2009-08-23-jquery-postmessage-plugin: 
+  github: cowboy/jquery-postmessage
   url: http://benalman.com/projects/jquery-postmessage-plugin/ (ignored)
   path_orig: projects/jquery-postmessage-plugin
   path_new: jquery-postmessage
@@ -120,6 +127,7 @@
   - receiving.js
   - sending.js
 2009-10-06-jquery-urlinternal-plugin: 
+  github: cowboy/jquery-urlinternal
   url: http://benalman.com/projects/jquery-urlinternal-plugin/ (ignored)
   path_orig: projects/jquery-urlinternal-plugin
   path_new: jquery-urlinternal
@@ -147,6 +155,7 @@
   - example-callback.js
   - do-once.js
 2009-11-21-jquery-replacetext-plugin: 
+  github: cowboy/jquery-replacetext
   url: http://benalman.com/projects/jquery-replacetext-plugin/ (ignored)
   path_orig: projects/jquery-replacetext-plugin
   path_new: jquery-replacetext
@@ -173,6 +182,7 @@
   - oops.js
   - eureka.js
 2010-02-06-jquery-resize-plugin: 
+  github: cowboy/jquery-resize
   url: http://benalman.com/projects/jquery-resize-plugin/ (ignored)
   path_orig: projects/jquery-resize-plugin
   path_new: jquery-resize
@@ -185,6 +195,7 @@
   incl_names: 
   - usage.js
 2009-07-15-jquery-dotimeout-plugin: 
+  github: cowboy/jquery-dotimeout
   url: http://benalman.com/projects/jquery-dotimeout-plugin/ (ignored)
   path_orig: projects/jquery-dotimeout-plugin
   path_new: jquery-dotimeout
@@ -200,6 +211,7 @@
   - debounce.js
   - chaining.js
 2009-11-08-jquery-equalizebottoms-plugin: 
+  github: cowboy/jquery-equalizebottoms
   url: http://benalman.com/projects/jquery-equalizebottoms-plugin/ (ignored)
   path_orig: projects/jquery-equalizebottoms-plugin
   path_new: jquery-equalizebottoms
@@ -213,6 +225,7 @@
   incl_names: 
   - usage.js
 2009-12-01-jquery-untils-plugin: 
+  github: cowboy/jquery-untils
   url: http://benalman.com/projects/jquery-untils-plugin/ (ignored)
   path_orig: projects/jquery-untils-plugin
   path_new: jquery-untils
@@ -240,6 +253,7 @@
   - other-example.js
   - do-once.js
 2009-12-19-jquery-getobject-plugin: 
+  github: cowboy/jquery-getobject
   url: http://benalman.com/projects/jquery-getobject-plugin/ (ignored)
   path_orig: projects/jquery-getobject-plugin
   path_new: jquery-getobject
@@ -252,6 +266,7 @@
   incl_names: 
   - usage.js
 2010-01-23-jquery-longurl-plugin: 
+  github: cowboy/jquery-longurl
   url: http://benalman.com/projects/jquery-longurl-plugin/ (ignored)
   path_orig: projects/jquery-longurl-plugin
   path_new: jquery-longurl
@@ -278,6 +293,7 @@
   incl_names: 
   - source.js
 2009-10-09-jquery-starwipe-plugin: 
+  github: cowboy/jquery-starwipe
   url: http://benalman.com/projects/jquery-starwipe-plugin/ (ignored)
   path_orig: projects/jquery-starwipe-plugin
   path_new: jquery-starwipe
@@ -290,6 +306,7 @@
   incl_names: 
   - starwipe.js
 2010-01-01-php-simple-proxy: 
+  github: cowboy/php-simple-proxy
   url: http://benalman.com/projects/php-simple-proxy/ (ignored)
   path_orig: projects/php-simple-proxy
   path_new: simple-php-proxy
@@ -300,6 +317,7 @@
   - Projects
   - PHP
 2009-08-24-simplified-style: 
+  github: cowboy/Simplified.lnk2Style
   url: http://benalman.com/projects/simplified-style/ (ignored)
   details: false
   path_orig: projects/simplified-style
@@ -322,6 +340,7 @@
   - Projects
   - JavaScript
 2010-06-22-javascript-debug-console-log: 
+  github: cowboy/javascript-debug
   url: http://benalman.com/projects/javascript-debug-console-log/ (ignored)
   path_orig: projects/javascript-debug-console-log
   path_new: js-debug
@@ -337,6 +356,7 @@
   - pass-through.js
   - callback.js
 2009-11-17-javascript-emotify: 
+  github: cowboy/javascript-emotify
   url: http://benalman.com/projects/javascript-emotify/ (ignored)
   path_orig: projects/javascript-emotify
   path_new: js-emotify
@@ -347,6 +367,7 @@
   - Projects
   - JavaScript
 2009-11-17-javascript-linkify: 
+  github: cowboy/javascript-linkify
   url: http://benalman.com/projects/javascript-linkify/ (ignored)
   path_orig: projects/javascript-linkify
   path_new: js-linkify
